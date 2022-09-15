@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: black;
+  color: white;
+}
+
+a,
+input,
+button {
+  &:focus {
+    outline: 3px solid white;
+  }
+
+  &:not(:focus-visible):focus {
+    outline: none;
+  }
+}
+
+h1 {
+  line-height: 1.3;
+  overflow: hidden;
+  display: block;
+  padding: 0.2em 0.2em;
+  font-size: 6vw;
+  font-weight: 900;
+}
+
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 3vw;
+  font-weight: 300;
+  line-height: 1.5;
+  overflow: hidden;
+  display: block;
+  padding: 0.6em 0.2em;
+  color: white;
+}
+
+ul {
+  font-size: 3vw;
+  list-style: none;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1.5;
+}
+
+ul li {
+  font-style: normal;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
