@@ -1,4 +1,59 @@
+:root {
+  --mondrian-item-size: 3vw;
+  --mondrian-border-width: 0.5vw;
+  --mondrian-black: black;
+  --mondrian-green: #00b401;
+  --mondrian-yellow: #ffd400;
+  --mondrian-blue: #00b4ff;
+}
+
 .logo {
-  margin: 8vw 0;
+  position: relative;
   text-align: center;
+}
+
+.logo__image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 25vw;
+  max-height: 25vw;
+  transform: translate(-50%, -50%);
+}
+
+.logo__mondrian {
+  display: grid;
+  max-height: 50vmax;
+  max-width: 100vmax;
+  grid-auto-columns: var(--mondrian-item-size);
+  grid-auto-rows: var(--mondrian-item-size);
+  grid-auto-flow: dense;
+  grid-gap: var(--mondrian-border-width);
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(var(--mondrian-item-size), 1fr)
+  );
+  grid-template-rows: repeat(auto-fit, minmax(var(--mondrian-item-size), 1fr));
+  background-color: var(--mondrian-black);
+  border: var(--mondrian-border-width) solid var(--mondrian-black);
+  overflow: hidden;
+  box-sizing: border-box;
+  transform: rotate(45deg);
+  margin: 0 auto;
+}
+
+.logo__mondrian-item_black {
+  background-color: var(--mondrian-black);
+}
+
+.logo__mondrian-item_green {
+  background-color: var(--mondrian-green);
+}
+
+.logo__mondrian-item_yellow {
+  background-color: var(--mondrian-yellow);
+}
+
+.logo__mondrian-item_blue {
+  background-color: var(--mondrian-blue);
 }
