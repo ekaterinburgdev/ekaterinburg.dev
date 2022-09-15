@@ -1,0 +1,16 @@
+{
+  "name": "ekaterinburg.dev",
+  "private": true,
+  "homepage": "https://ekaterinburg.dev",
+  "type": "module",
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.4.0"
+  }
+}
