@@ -57,7 +57,8 @@ ul {
 }
 
 ul li {
-  font-style: normal;
+  font-style: italic;
+  margin-bottom: 2vw;
 }
 
 details {
