@@ -1,5 +1,5 @@
 :root {
-  --mondrian-item-size: 5vw;
+  --mondrian-item-size: 3vw;
   --mondrian-border-width: 0.5vw;
   --mondrian-black: black;
   --mondrian-green: #00b401;
@@ -12,6 +12,7 @@
   width: 100%;
   height: 100%;
   text-align: center;
+  animation: mondrianFadeIn 1s ease;
 }
 
 .logo__image {
@@ -69,11 +70,15 @@
   grid-template-rows: repeat(auto-fit, minmax(var(--mondrian-item-size), 1fr));
   background-color: var(--mondrian-black);
   border: var(--mondrian-border-width) solid var(--mondrian-black);
-  overflow: clip;
   pointer-events: none;
   box-sizing: border-box;
   transform-origin: 50% -50%;
   transform: rotate(45deg) translateZ(0);
+}
+
+.logo__mondrian-item {
+  transform: transalteZ(0);
+  animation: mondrianItemFadeIn .2s linear;
 }
 
 .logo__mondrian-item_black {
@@ -90,4 +95,34 @@
 
 .logo__mondrian-item_blue {
   background-color: var(--mondrian-blue);
+}
+
+@keyframes mondrianFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(.75);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes mondrianItemFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(.75);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 1;
+  }
 }

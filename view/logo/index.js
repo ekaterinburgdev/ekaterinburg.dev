@@ -1,7 +1,24 @@
+const logo = document.querySelector('[data-id="logo"]');
 const mondrian = document.querySelector('[data-id="mondrian"]');
 const mondrianButton = document.querySelector('[data-id="mondrian-button"]');
 
 renderMondrian();
+
+let touchstartX = 0;
+let touchstartY = 0;
+let touchendX = 0;
+let touchendY = 0;
+
+logo.addEventListener('touchstart', (event) => {
+  touchstartX = event.screenX;
+  touchstartY = event.screenY;
+}, false);
+
+logo.addEventListener('touchend', (event) =>  {
+  touchendX = event.screenX;
+  touchendY = event.screenY;
+  renderMondrian();
+}, false); 
 
 mondrianButton.addEventListener("click", () => {
   renderMondrian();
@@ -10,6 +27,7 @@ mondrianButton.addEventListener("click", () => {
 mondrianButton.addEventListener("mouseover", () => {
   renderMondrian();
 });
+
 
 function renderMondrian() {
   while (mondrian.firstChild) {
