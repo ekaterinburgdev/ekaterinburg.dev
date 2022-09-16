@@ -3,7 +3,18 @@
 }
 
 .header__text {
+  position: relative;
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  font-weight: bold;
+
+  & span {
+    background: black;
+    padding: .15em;
+  }
+}
+
+.header__more {
+  text-transform: uppercase;
 }
