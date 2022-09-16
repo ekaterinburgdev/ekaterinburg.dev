@@ -57,7 +57,7 @@
   position: relative;
   z-index: -1;
   display: grid;
-  width: 100vmax;
+  width: 50vmax;
   height: 50vmax;
   gap: var(--mondrian-border-width);
   grid-auto-columns: var(--mondrian-item-size);
@@ -72,7 +72,7 @@
   border: var(--mondrian-border-width) solid var(--mondrian-black);
   pointer-events: none;
   box-sizing: border-box;
-  transform-origin: 50% -50%;
+  transform-origin: 100% 100%;
   transform: rotate(45deg) translateZ(0);
 }
 
