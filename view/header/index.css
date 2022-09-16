@@ -4,14 +4,18 @@
 
 .header__text {
   position: relative;
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
   text-align: center;
   font-weight: bold;
 
   & span {
     background: black;
-    padding: .15em;
+    padding: .15em 0;
+  }
+  
+  @media (min-width: 768px) {
+    width: 80%;
   }
 }
 
