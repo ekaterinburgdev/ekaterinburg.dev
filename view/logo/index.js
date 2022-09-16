@@ -7,6 +7,10 @@ mondrianButton.addEventListener("click", () => {
   renderMondrian();
 });
 
+mondrianButton.addEventListener("mouseover", () => {
+  renderMondrian();
+});
+
 function renderMondrian() {
   while (mondrian.firstChild) {
     mondrian.firstChild.remove();

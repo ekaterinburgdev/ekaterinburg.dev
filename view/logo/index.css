@@ -1,6 +1,6 @@
 :root {
   --mondrian-item-size: 5vw;
-  --mondrian-border-width: .4vw;
+  --mondrian-border-width: 0.5vw;
   --mondrian-black: black;
   --mondrian-green: #00b401;
   --mondrian-yellow: #ffd400;
@@ -24,7 +24,7 @@
   width: 700px;
   height: 700px;
   transform: translate(-50%, -50%);
-  transition: .1s;
+  transition: 0.1s;
   background: url(./logo.svg) no-repeat center;
   background-size: contain;
   border: 0;
@@ -53,8 +53,8 @@
 }
 
 .logo__mondrian {
-    position: relative;
-    z-index: -1;
+  position: relative;
+  z-index: -1;
   display: grid;
   width: 100vmax;
   height: 50vmax;
