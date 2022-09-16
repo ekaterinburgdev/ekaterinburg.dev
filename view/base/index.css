@@ -1,14 +1,11 @@
 body {
-  margin: 0;
-}
-
-body {
   font-family: "JetBrains Mono", monospace;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: black;
   color: white;
+  margin: 0;
 }
 
 a,

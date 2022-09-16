@@ -1,6 +1,6 @@
 :root {
   --mondrian-item-size: 3vw;
-  --mondrian-border-width: 0.5vw;
+  --mondrian-border-width: .4vw;
   --mondrian-black: black;
   --mondrian-green: #00b401;
   --mondrian-yellow: #ffd400;
@@ -9,26 +9,47 @@
 
 .logo {
   position: relative;
+  width: 100%;
+  height: 100%;
   text-align: center;
 }
 
 .logo__image {
   position: absolute;
+  display: inline-block;
   top: 50%;
   left: 50%;
   max-width: 25vw;
   max-height: 25vw;
+  width: 700px;
+  height: 700px;
   transform: translate(-50%, -50%);
+  transition: .1s;
+  background: url(./logo.svg) no-repeat center;
+  background-size: contain;
+  border: 0;
+  cursor: pointer;
+  transform-origin: 50% 50%;
+
+  &:hover {
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+
+  &:active {
+    transform: translate(-50%, -50%);
+  }
 }
 
 .logo__mondrian {
+    position: relative;
+    z-index: -1;
   display: grid;
-  max-height: 50vmax;
-  max-width: 100vmax;
+  width: 100vmax;
+  height: 50vmax;
+  gap: var(--mondrian-border-width);
   grid-auto-columns: var(--mondrian-item-size);
   grid-auto-rows: var(--mondrian-item-size);
   grid-auto-flow: dense;
-  grid-gap: var(--mondrian-border-width);
   grid-template-columns: repeat(
     auto-fit,
     minmax(var(--mondrian-item-size), 1fr)
@@ -36,10 +57,11 @@
   grid-template-rows: repeat(auto-fit, minmax(var(--mondrian-item-size), 1fr));
   background-color: var(--mondrian-black);
   border: var(--mondrian-border-width) solid var(--mondrian-black);
-  overflow: hidden;
+  overflow: clip;
+  pointer-events: none;
   box-sizing: border-box;
-  transform: rotate(45deg);
-  margin: 0 auto;
+  transform-origin: 50% -50%;
+  transform: rotate(45deg) translateZ(0);
 }
 
 .logo__mondrian-item_black {
