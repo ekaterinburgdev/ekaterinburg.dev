@@ -72,7 +72,6 @@ details {
     list-style: none;
     padding: 0.2em 0.8em;
     transition: 0.1s opacity;
-    border-radius: 6px;
 
     &:active {
       opacity: 0.5;
@@ -80,8 +79,8 @@ details {
 
     &::before,
     &::after {
-      width: 0.75em;
-      height: 6px;
+      width: 0.8em;
+      height: 3px;
       position: absolute;
       top: 50%;
       right: 0.6em;
@@ -90,6 +89,10 @@ details {
       text-align: right;
       transform: translateY(-50%);
       transition: transform 0.2s ease-in-out;
+
+      @media (min-width: 768px) {
+        height: 10px;
+      }
     }
 
     &::after {
