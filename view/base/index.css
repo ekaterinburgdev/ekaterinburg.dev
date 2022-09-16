@@ -61,6 +61,7 @@ ul li {
 }
 
 details {
+  border: 2px solid white;
   border-radius: 6px;
 
   & summary {
@@ -80,10 +81,10 @@ details {
     &::before,
     &::after {
       width: 0.75em;
-      height: 3px;
+      height: 6px;
       position: absolute;
       top: 50%;
-      right: 0.4em;
+      right: 0.6em;
       content: "";
       background-color: currentColor;
       text-align: right;
@@ -102,7 +103,6 @@ details {
 
   &[open] {
     & summary {
-      border: 1px solid white;
       color: white;
       background: black;
     }
