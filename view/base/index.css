@@ -11,6 +11,8 @@ body {
 a,
 input,
 button {
+  color: white;
+  
   &:focus {
     outline: 3px solid white;
   }
