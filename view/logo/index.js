@@ -20,10 +20,6 @@ logo.addEventListener('touchend', (event) =>  {
   renderMondrian();
 }, false); 
 
-mondrianButton.addEventListener("click", () => {
-  renderMondrian();
-});
-
 mondrianButton.addEventListener("mouseover", () => {
   renderMondrian();
 });
@@ -41,14 +37,14 @@ function renderMondrian() {
 
 
 function generateMondrianItems() {
-  let colors = ["black", "green", "blue", "yellow", "black", "black", "blue"];
+  let colors = ["green", "green", "blue", "yellow"];
   let cells = [];
 
   let random = (min, max) => Math.floor(Math.random() * (max - min) + min);
   
-  for (let i = 0; i < 100; i++) {
-    let span = random(1, 5);
-    let row = random(1, 12);
+  for (let i = 0; i < 40; i++) {
+    let span = random(1, 4);
+    let row = span;
     let colorIndex = random(1, colors.length);
     const cell = document.createElement("div");
     cell.style.gridColumn = `span ${span}`;
