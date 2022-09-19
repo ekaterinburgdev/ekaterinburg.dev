@@ -8,17 +8,35 @@
   margin: 0 auto;
   text-align: center;
   font-weight: bold;
+  margin-top: -2em;
 
-  & span {
-    background: black;
-    padding: .15em 0;
-  }
-  
   @media (min-width: 768px) {
     width: 80%;
   }
 }
 
 .header__more {
+  font-size: 5.5vw;
+  font-weight: 300;
+  line-height: 1.5;
+  overflow: hidden;
+  display: block;
+  padding: 0.6em 0.2em;
+  color: black;
+  background: white;
+  text-decoration: none;
+  transition: .15s ease;
+
+  @media (min-width: 768px) {
+    font-size: 3vw;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
   text-transform: uppercase;
+
+  &:hover {
+    letter-spacing: .2em;
+    margin: 0 -.1em;
+  }
 }
