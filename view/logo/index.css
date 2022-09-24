@@ -1,6 +1,5 @@
 :root {
   --mondrian-item-size: 4vmax;
-  --mondrian-border-width: 4px;
   --mondrian-black: black;
   --mondrian-green: #00b401;
   --mondrian-yellow: #ffd400;
@@ -10,19 +9,19 @@
 .logo {
   position: relative;
   width: 100%;
-  height: 85vh;
+  height: 60vh;
   text-align: center;
   animation: mondrianFadeIn 1s ease;
 
   @media (min-width: 768px) {
-    height: 80vh;
+    height: 70vh;
   }
 }
 
 .logo__image {
   position: absolute;
   display: inline-block;
-  top: 45%;
+  top: 40%;
   left: 50%;
   max-width: 55vw;
   max-height: 55vw;
@@ -37,8 +36,8 @@
   border-radius: 8px;
 
   @media (min-width: 768px) {
-    max-width: 25vw;
-    max-height: 25vw;
+    max-width: 20vw;
+    max-height: 20vw;
   }
 }
 
@@ -48,7 +47,6 @@
   width: 100%;
   height: 100%;
   grid-auto-flow: dense;
-  gap: var(--mondrian-border-width);
   grid-auto-columns: var(--mondrian-item-size);
   grid-auto-rows: var(--mondrian-item-size);
   grid-auto-flow: dense;
@@ -57,7 +55,6 @@
     minmax(var(--mondrian-item-size), 1fr)
   );
   grid-template-rows: repeat(auto-fit, minmax(var(--mondrian-item-size), 1fr));
-  border: var(--mondrian-border-width) solid var(--mondrian-black);
   pointer-events: none;
   box-sizing: border-box;
   transform-origin: 100% 100%;
@@ -66,7 +63,6 @@
 
 .logo__mondrian-item {
   transform: transalteZ(0);
-  animation: mondrianItemFadeIn .2s linear;
 }
 
 .logo__mondrian-item_black {
@@ -88,24 +84,9 @@
 @keyframes mondrianFadeIn {
   0% {
     opacity: 0;
-    transform: scale(.75);
-  }
-
-  50% {
-    transform: scale(1);
   }
 
   100% {
     opacity: 1;
-  }
-}
-
-@keyframes mondrianItemFadeIn {
-  0% {
-    transform: scale(.9);
-  }
-
-  100% {
-    transform: scale(1);
   }
 }

@@ -40,11 +40,12 @@ function generateMondrianItems() {
   let colors = ["green", "green", "blue", "yellow"];
   let cells = [];
 
+  let items = window.innerHeight > window.innerWidth ? 30 : 80 
   let random = (min, max) => Math.floor(Math.random() * (max - min) + min);
   
-  for (let i = 0; i < 40; i++) {
-    let span = random(1, 4);
-    let row = span;
+  for (let i = 0; i < items; i++) {
+    let span = random(1, 3);
+    let row = random(1, 3);
     let colorIndex = random(1, colors.length);
     const cell = document.createElement("div");
     cell.style.gridColumn = `span ${span}`;
