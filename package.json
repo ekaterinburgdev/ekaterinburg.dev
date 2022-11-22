@@ -18,5 +18,8 @@
     "postcss-nesting": "^10.2.0",
     "size-limit": "^8.1.0",
     "vite": "^2.4.0"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1"
   }
 }

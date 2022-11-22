@@ -1,2 +1,2 @@
 import './view/header';
-import './view/logo';
+import './view/preview';

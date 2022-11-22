@@ -35,24 +35,27 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="logo" data-id="logo">
-      <div class="logo__mondrian" data-id="mondrian"></div>
-      <button class="logo__image" alt="" data-id="mondrian-button"></button>
+  <div class="preview">
+    <div class="preview__scroller">
+      <svg class="preview__graphics" xmlns="http://www.w3.org/2000/svg">
+        <image href="/view/preview/logo.svg" width="50%" height="50%" x="25%" y="-25%"></image>
+      </svg>
     </div>
+    <div class="preview__content"></div>
 
-    <div class="header__text">
-      <p data-id="header-text">
-        Это Код Екатеринбурга&nbsp;&mdash; команда, которая сделает невозможное.
-        Невыполнимое, сложное и&nbsp;безумное. Сделает&nbsp;то, что никто не&nbsp;сможет. Это
-        тот проект, о&nbsp;котором вы&nbsp;мечтали. Это&nbsp;&mdash; проект судьбы.
-      </p>
-
-      <a class="header__more" href="#about" data-id="header-more">
-        Узнать, что мы&nbsp;будем делать
-      </a>
-    </div>
-  </header>
+    <header class="header"> 
+      <div class="header__text">
+        <p data-id="header-text">
+          Это Код Екатеринбурга&nbsp;&mdash; команда, которая сделает невозможное.
+          Невыполнимое, сложное и&nbsp;безумное. Сделает&nbsp;то, что никто не&nbsp;сможет. Это
+          тот проект, о&nbsp;котором вы&nbsp;мечтали. Это&nbsp;&mdash; проект судьбы.
+        </p>
+        <a class="header__more" href="#about" data-id="header-more">
+          Узнать, что мы&nbsp;будем делать
+        </a>
+      </div>
+    </header> 
+  </div>
 
   <div class="road">
     <img src="./view/road/road-start.svg" alt="" />
@@ -61,12 +64,7 @@
   </div>
 
   <main class="page">
-    <p style="text-align: center;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 4.2vw;
-    color: rgb(255,212,0);
-    letter-spacing: .1em;">
+    <p style="page__text">
       Поздравляем!<br />
       Вы&nbsp;самый любопытный!<br />
       Вас мы&nbsp;и&nbsp;искали.
@@ -85,9 +83,7 @@
 
       <p>
         По мере накопления информации о жителях, мы будем автоматизировать их жизнь. Если система знает всю медкарту, покупки в магазинах, регистрации, соцвыплаты, льготы, поездки, мой автомобиль, страховки и пр., то сможет выдавать полезные предложения:
-      <ul style="
-        font-style: italic;
-      ">
+      <ul>
         <li>
           Пора сходить к&nbsp;врачу или пройти диспансеризацию, у&nbsp;вас свободно утро вторника, давайте запишу?
         </li>
@@ -146,7 +142,7 @@
     </p>
   </main>
 
-  <div class="footer">
+  <footer class="footer">
     <a class="footerLogo" href="https://ekaterinburg.design/">
       <img class="footerLogo__image" src="./view/footer/social/logo-transparent.svg" alt="Ekaterinburg.design">
       <div class="footerLogo__caption">Код Екатеринбурга</div>
@@ -160,7 +156,7 @@
       </a>
     </div>
     <a class="footerAction" href="mailto:mail@ekaterinburg.dev">Написать нам</a>
-  </div>
+  </footer>
 
   <script src="./script.js" type="module" defer></script>
 </body>
