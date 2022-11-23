@@ -1,0 +1,130 @@
+.footer {
+  z-index: 1;
+  position: fixed;
+  left: 0.7vw;
+  right: 0.7vw;
+  bottom: 0.7vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: fadeIn 2s cubic-bezier(0.25, 0.85, 0.7, 0.75) forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  } 
+  60% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.footerLogo {
+  cursor: pointer;
+  transition: all 0.1s cubic-bezier(0.25, 0.85, 0.7, 0.75);
+  padding-right: 1.25vw;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  border-radius: 100px;
+}
+
+.footerLogo:hover {
+  color: #ffd400;
+  transform: scale(1.1);
+}
+
+.footerLogo__image {
+  width: 3.3vw;
+  height: auto;
+  margin-right: 0.65vw;
+}
+
+.footerLogo__caption {
+  font-size: 1.05vw;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.footerlinks {
+  display: flex;
+  padding: 0.75vw 1vw 0.5vw 0.75vw;
+  column-gap: 1vw;
+  transition: all 0.15s ease;
+  background-color: #000;
+  border-radius: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .footerlinks {
+    margin-bottom: 3.5vw;
+  }
+}
+
+.footerlinks__item {
+  transition: all 0.15s ease;
+}
+
+.footerlinks__item:hover {
+  transform: scale(1.15);
+}
+
+.footerlinks__image {
+  height: 2vw;
+  width: auto;
+}
+
+.footerAction {
+  padding: 0.65vw 1.25vw 0.65vw;
+  border-radius: 10vw;
+  background-color: #ffd400;
+  font-size: 1.05vw;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #000;
+  line-height: 1.4;
+  transition: all 0.15s ease;
+}
+
+.footerAction:hover {
+  transform: scale(1.08);
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    bottom: 1.5vw;
+    right: 2vw;
+    left: 1vw;
+  }
+
+  .footerLogo {
+    padding: 0 !important;
+  }
+
+  .footerLogo__image {
+    width: 15vw;
+    margin-right: 0;
+  }
+
+  .footerLogo__caption {
+    display: none;
+  }
+
+  .footerlinks {
+    background-color: none;
+    padding: 0;
+  }
+
+  .footerlinks__item {
+    display: none;
+  }
+
+  .footerAction {
+    padding: 1.75vw 4vw 1.75vw;
+    font-size: 4vw;
+  }
+} 
