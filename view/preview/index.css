@@ -1,0 +1,31 @@
+.preview {
+  position: relative;
+}
+
+.preview__graphics {
+  height: 200vh;
+  pointer-events: none;
+}
+
+.preview__graphics circle {
+  transform: translateZ(0);
+}
+
+.preview__scroller {
+  transform: scale(0.2) translateZ(0);
+  transform-origin: 50% 50vh;
+  opacity: 0;
+  animation: fadeIn 1s cubic-bezier(0, 0.75, 0.25, 1) forwards;
+  top: 0;
+}
+
+@keyframes fadeIn{
+  from {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

@@ -3,3 +3,12 @@
   width: 80%;
   margin: 0 auto;
 }
+
+.page__text {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 4.2vw;
+  color: rgb(255,212,0);
+  letter-spacing: .1em;
+}

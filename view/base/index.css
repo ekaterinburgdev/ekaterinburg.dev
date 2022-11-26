@@ -3,9 +3,10 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: black;
+  background-color: black;
   color: white;
   margin: 0;
+  overflow-x: hidden;
 }
 
 a {
