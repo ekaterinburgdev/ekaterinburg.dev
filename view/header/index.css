@@ -1,8 +1,11 @@
-  margin-top: -100vh;
 .header {
   overflow: hidden;
   position: relative;
   z-index: 1;
+  margin-top: -50vh;
+  @media (max-width: 768px) {
+    margin-top: -100vh;
+  }
 }
 
 .header__text {
