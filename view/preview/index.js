@@ -121,16 +121,16 @@ const svg = document.querySelector(SELECTORS.GRAPHCIS);
 circles.map((circle) => svg.prepend(circle));
 
 // add onScroll logic
-// useScroll({
-//   element: document.querySelector(SELECTORS.WRAPPER),
-//   onStartScroll: timeline.pause,
-//   onScroll: (scrollPosition) => {
-//     const current = timeline.duration * (timeline.progress * 0.01);
-//     const scroll = timeline.duration * (scrollPosition * 0.01);
-//     timeline.seek((current + scroll) / 2);
-//   },
-//   onEndScroll: timeline.play,
-// });
+useScroll({
+  element: document.querySelector(SELECTORS.WRAPPER),
+  onStartScroll: timeline.pause,
+  onScroll: (scrollPosition) => {
+    const current = timeline.duration * (timeline.progress * 0.01);
+    const scroll = timeline.duration * (scrollPosition * 0.01);
+    timeline.seek((current + scroll) / 2);
+  },
+  onEndScroll: timeline.play,
+});
 
 // add onResize logic
 function onResize() {

@@ -12,8 +12,7 @@
 }
 
 .preview__scroller {
-  /* uncomment for scroll: */
-  /* position: sticky; */
+  position: sticky;
   transform: scale(0.2) translateZ(0);
   transform-origin: 50% 50vh;
   opacity: 0;
@@ -21,10 +20,9 @@
   top: 0;
 }
 
-/* uncomment for scroll: */
-/* .preview__content {
+.preview__content {
   min-height: 100vh;
-} */
+}
 
 @keyframes fadeIn{
   from {
