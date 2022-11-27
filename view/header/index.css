@@ -14,7 +14,7 @@
   margin: 0 auto;
   text-align: center;
   font-weight: bold;
-  margin-top: -2em;
+  margin-top: 8vw;
 
   @media (min-width: 768px) {
     width: 100%;
@@ -23,24 +23,25 @@
 
 .header__more {
   display: inline-block;
-  font-size: .5vw !important;
-  font-weight: 400;
+  font-size: .75em;
+  font-weight: 500;
   line-height: 1;
   letter-spacing: .5em;
   overflow: hidden;
-  padding: .5em 0;
+  padding: .5em 0 .5em .5em;
+	margin: 60vh 0 65vh;
   color: #ffd400;
   text-decoration: none;
   box-shadow: 0 1px 0 rgba(255,212,0,.5);
-  transition: all .05s ease;
+  transition: all 1s ease;
 
   @media (min-width: 768px) {
-    font-size: 3vw;
-    margin: 60vh 0 65vh;
+    font-size: 2em;
+		font-weight: 400;
 
     &:hover {
-      padding: .5em 2em;
-      letter-spacing: .2em;
+      padding: .5em 2em .5em 3em;
+      letter-spacing: 1.5em;
       box-shadow: 0 1px 0 rgba(255,212,0,1);
     }
   }
