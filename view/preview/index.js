@@ -123,7 +123,10 @@ circles.map((circle) => svg.prepend(circle));
 // add onScroll logic
 useScroll({
   element: document.querySelector(SELECTORS.WRAPPER),
-  onStartScroll: timeline.pause,
+  onStartScroll: () => {
+    timeline.pause();
+    timeline.seek(timeline.duration * (timeline.progress * 0.01) + 10);
+  },
   onScroll: (scrollPosition) => {
     const current = timeline.duration * (timeline.progress * 0.01);
     const scroll = timeline.duration * (scrollPosition * 0.01);
