@@ -23,26 +23,27 @@
 
 .header__more {
   display: inline-block;
-  font-size: .75em;
+  font-size: 3vw;
   font-weight: 500;
   line-height: 1;
-  letter-spacing: .5em;
+  letter-spacing: 1vw;
   overflow: hidden;
-  padding: .5em 0 .5em .5em;
+  padding: .5em 0vw .4em 1.5vw;
 	margin: 60vh 0 65vh;
   color: #ffd400;
   text-decoration: none;
-  box-shadow: 0 1px 0 rgba(255,212,0,.5);
-  transition: all 1s ease;
+  box-shadow: 0 .2vw 0 rgba(255,212,0,.5);
+  transition: all 2s cubic-bezier(0.52,0.51,0.39,0.99);
 
   @media (min-width: 768px) {
-    font-size: 2em;
+    font-size: 2.5vw;
 		font-weight: 400;
+		box-shadow: 0 .25vw 0 rgba(255,212,0,.5);
 
     &:hover {
-      padding: .5em 2em .5em 3em;
-      letter-spacing: 1.5em;
-      box-shadow: 0 1px 0 rgba(255,212,0,1);
+      /* padding: .5em 1vw .5em 2.5vw; */
+      letter-spacing: 2.2vw;
+      box-shadow: 0 .1vw 0 rgba(255,212,0,1);
     }
   }
 
