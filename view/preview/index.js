@@ -16,7 +16,6 @@ const CIRCLES = 30;
 const MIN_SCALE = 1.5;
 const MAX_SCALE = 4;
 const COLORS = ["#00b4ff", "#ffd400", "#00b400"];
-// const COLORS = ["#fff000", "#00f000", "#00d2ff"];
 const ANIMATION = [
   // "linear",
   "easeOutQuad",
