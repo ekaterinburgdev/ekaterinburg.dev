@@ -47,3 +47,6 @@ export function useScroll({ element, onStartScroll, onScroll, onEndScroll }) {
 }
 
 export const checkIsMobile = () => window.innerWidth < 768;
+
+export const clamp = (num, min, max) =>
+  num <= min ? min : num >= max ? max : num;

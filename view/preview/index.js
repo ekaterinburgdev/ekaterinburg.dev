@@ -4,6 +4,7 @@ import {
   useScroll,
   SVG_DOCTYPE,
   checkIsMobile,
+  clamp,
 } from "./helpers";
 
 const SELECTORS = {
@@ -13,8 +14,9 @@ const SELECTORS = {
 
 // setup circles
 const CIRCLES = 30;
+const windowRatio = window.innerHeight / window.innerWidth;
 const MIN_SCALE = 1.5;
-const MAX_SCALE = 4;
+const MAX_SCALE = clamp(windowRatio * 10, 1.5, 3);
 const COLORS = ["#00b4ff", "#ffd400", "#00b400"];
 const ANIMATION = [
   // "linear",
@@ -59,7 +61,7 @@ const circles = Array.from({ length: CIRCLES }, (_, i) => {
   return { strokeWidth, strokeRadius };
 })
   .filter(
-    ({ strokeWidth, strokeRadius }) => strokeWidth < 8 && strokeRadius < 30
+    ({ strokeWidth, strokeRadius }) => strokeWidth < 8 && strokeRadius < 25
   )
   .map(({ strokeWidth, strokeRadius }) => {
     const circle = document.createElementNS(SVG_DOCTYPE, "circle");
@@ -138,7 +140,7 @@ useScroll({
 // add onResize logic
 function onResize() {
   const { vw, vh } = getDimensions();
-  const ORIGIN = { x: "50%", y: "0" };
+  const ORIGIN = { x: "50%", y: "-50%" };
 
   svg.setAttribute("width", vw);
   svg.setAttribute("heigth", vh);
