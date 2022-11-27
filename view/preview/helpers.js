@@ -37,7 +37,9 @@ export function useScroll({ element, onStartScroll, onScroll, onEndScroll }) {
         }, 150);
       } else {
         onStartScroll(scrollPosition);
-        isScroll = true;
+        setTimeout(() => {
+          isScroll = true;
+        }, 100);
       }
     },
     { passive: true }
