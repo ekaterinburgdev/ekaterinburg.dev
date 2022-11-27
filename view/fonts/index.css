@@ -1,0 +1,41 @@
+@font-face {
+	font-family: "Iset Sans";
+	src: url("./IsetSans-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Iset Sans";
+	src: url("./IsetSans-Regular-Italic.woff2") format("woff2");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Iset Sans";
+	src: url("./IsetSans-Light.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Iset Sans";
+	src: url("./IsetSans-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Iset Sans";
+	src: url("./IsetSans-SemiBold.woff2") format("woff2");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Iset Icons";
+	src: url("./IsetIcons.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
