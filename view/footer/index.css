@@ -57,6 +57,9 @@
   transition: all 0.15s ease;
   background-color: #000;
   border-radius: 100px;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 @media screen and (max-width: 768px) {
