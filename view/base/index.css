@@ -1,5 +1,5 @@
 body {
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Iset Sans", monospace;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -38,15 +38,15 @@ h1 {
 
 p {
   font-size: 5.5vw;
-  font-weight: 300;
-  line-height: 1.5;
+  font-weight: 400;
+  line-height: 1.2;
   overflow: hidden;
   display: block;
   padding: 0.6em 0.2em;
   color: white;
 
   @media (min-width: 768px) {
-    font-size: 3vw;
+    font-size: 4vw;
     margin-left: 10%;
     margin-right: 10%;
   }
