@@ -15,8 +15,8 @@ const SELECTORS = {
 // setup circles
 const CIRCLES = 30;
 const windowRatio = window.innerHeight / window.innerWidth;
-const MIN_SCALE = 1.5;
-const MAX_SCALE = clamp(windowRatio * 10, 1.5, 3);
+const MIN_SCALE = 1.8;
+const MAX_SCALE = clamp(windowRatio * 7, 2, checkIsMobile() ? 4.5 : 3.2);
 const COLORS = ["#00b4ff", "#ffd400", "#00b400"];
 const ANIMATION = [
   // "linear",
@@ -61,7 +61,7 @@ const circles = Array.from({ length: CIRCLES }, (_, i) => {
   return { strokeWidth, strokeRadius };
 })
   .filter(
-    ({ strokeWidth, strokeRadius }) => strokeWidth < 8 && strokeRadius < 25
+    ({ strokeWidth, strokeRadius }) => strokeWidth < 8 && strokeRadius < 35
   )
   .map(({ strokeWidth, strokeRadius }) => {
     const circle = document.createElementNS(SVG_DOCTYPE, "circle");
@@ -151,6 +151,8 @@ function onResize() {
     circle.setAttribute("cy", ORIGIN.y);
     circle.style.transformOrigin = `${ORIGIN.x} ${ORIGIN.y}`;
   });
+
+  timeline.seek(timeline.duration * (timeline.progress * 0.01));
 }
 onResize();
 window.addEventListener("resize", onResize);
