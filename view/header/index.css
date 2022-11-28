@@ -14,33 +14,35 @@
   margin: 0 auto;
   text-align: center;
   font-weight: bold;
-  margin-top: -2em;
+  margin-top: 8vw;
 
   @media (min-width: 768px) {
-    width: 80%;
+    width: 100%;
   }
 }
 
 .header__more {
   display: inline-block;
-  font-size: 5vw;
-  font-weight: 300;
-  line-height: 1.5;
+  font-size: 3vw;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 1vw;
   overflow: hidden;
-  margin: 0 0 -.2em;
-  padding: 0.6em 0.5em;
-  color: black;
-  background: white;
+  padding: .5em 0vw .4em 1.5vw;
+  margin: 60vh 0 65vh;
+  color: #ffd400;
   text-decoration: none;
-  transition: .1s ease;
+  box-shadow: 0 .2vw 0 rgba(255,212,0,.5);
+  transition: all 2s cubic-bezier(0.52,0.51,0.39,0.99);
 
   @media (min-width: 768px) {
-    font-size: 3vw;
-    margin: 0 0 -.1em;
+    font-size: 2.5vw;
+    font-weight: 400;
+    box-shadow: 0 .25vw 0 rgba(255,212,0,.5);
 
     &:hover {
-      letter-spacing: .2em;
-      margin: 0 -.1em -.1em;
+      letter-spacing: 2.2vw;
+      box-shadow: 0 .1vw 0 rgba(255,212,0,1);
     }
   }
 
