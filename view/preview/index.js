@@ -13,7 +13,7 @@ const SELECTORS = {
 };
 
 // setup circles
-const CIRCLES = 30;
+const CIRCLES = 32;
 const windowRatio = window.innerHeight / window.innerWidth;
 const MIN_SCALE = 1.8;
 const MAX_SCALE = clamp(windowRatio * 7, 2, checkIsMobile() ? 4.5 : 3.2);
@@ -61,7 +61,7 @@ const circles = Array.from({ length: CIRCLES }, (_, i) => {
   return { strokeWidth, strokeRadius };
 })
   .filter(
-    ({ strokeWidth, strokeRadius }) => strokeWidth < 8 && strokeRadius < 35
+    ({ strokeWidth, strokeRadius }) => strokeWidth < 8 && strokeRadius < 28
   )
   .map(({ strokeWidth, strokeRadius }) => {
     const circle = document.createElementNS(SVG_DOCTYPE, "circle");
