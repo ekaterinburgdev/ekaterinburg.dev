@@ -2,9 +2,9 @@
   overflow: hidden;
   position: relative;
   z-index: 1;
-  margin-top: -50vh;
+  margin-top: -125vh;
   @media (max-width: 768px) {
-    margin-top: -100vh;
+    margin-top: -200vh;
   }
 }
 

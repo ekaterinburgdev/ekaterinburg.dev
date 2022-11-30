@@ -4,6 +4,7 @@ import {
   useScroll,
   SVG_DOCTYPE,
   checkIsMobile,
+  clamp,
 } from "./helpers";
 
 const SELECTORS = {
@@ -12,9 +13,10 @@ const SELECTORS = {
 };
 
 // setup circles
-const CIRCLES = 30;
-const MIN_SCALE = 1.5;
-const MAX_SCALE = 4;
+const CIRCLES = 32;
+const windowRatio = window.innerHeight / window.innerWidth;
+const MIN_SCALE = 1.8;
+const MAX_SCALE = clamp(windowRatio * 7, 2, checkIsMobile() ? 4.5 : 3.2);
 const COLORS = ["#00b4ff", "#ffd400", "#00b400"];
 const ANIMATION = [
   // "linear",
@@ -59,7 +61,7 @@ const circles = Array.from({ length: CIRCLES }, (_, i) => {
   return { strokeWidth, strokeRadius };
 })
   .filter(
-    ({ strokeWidth, strokeRadius }) => strokeWidth < 8 && strokeRadius < 30
+    ({ strokeWidth, strokeRadius }) => strokeWidth < 8 && strokeRadius < 28
   )
   .map(({ strokeWidth, strokeRadius }) => {
     const circle = document.createElementNS(SVG_DOCTYPE, "circle");
@@ -123,7 +125,10 @@ circles.map((circle) => svg.prepend(circle));
 // add onScroll logic
 useScroll({
   element: document.querySelector(SELECTORS.WRAPPER),
-  onStartScroll: timeline.pause,
+  onStartScroll: () => {
+    timeline.pause();
+    timeline.seek(timeline.duration * (timeline.progress * 0.01) + 10);
+  },
   onScroll: (scrollPosition) => {
     const current = timeline.duration * (timeline.progress * 0.01);
     const scroll = timeline.duration * (scrollPosition * 0.01);
@@ -135,7 +140,7 @@ useScroll({
 // add onResize logic
 function onResize() {
   const { vw, vh } = getDimensions();
-  const ORIGIN = { x: "50%", y: "0" };
+  const ORIGIN = { x: "50%", y: "-50%" };
 
   svg.setAttribute("width", vw);
   svg.setAttribute("heigth", vh);
@@ -146,6 +151,8 @@ function onResize() {
     circle.setAttribute("cy", ORIGIN.y);
     circle.style.transformOrigin = `${ORIGIN.x} ${ORIGIN.y}`;
   });
+
+  timeline.seek(timeline.duration * (timeline.progress * 0.01));
 }
 onResize();
 window.addEventListener("resize", onResize);
