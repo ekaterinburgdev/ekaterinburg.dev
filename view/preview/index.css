@@ -12,11 +12,14 @@
 }
 
 .preview__scroller {
-  transform: scale(0.2) translateZ(0);
+  transform: translateZ(0);
   transform-origin: 50% 50vh;
   opacity: 0;
-  animation: fadeIn 1s cubic-bezier(0, 0.75, 0.25, 1) forwards;
-  top: 0;
+  animation-name: fadeIn;
+  animation-duration: .9s;
+  animation-delay: .1s; /* Prevent layout shift on page loading */
+  animation-timing-function: cubic-bezier(0, 0.75, 0.25, 1);
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadeIn{
