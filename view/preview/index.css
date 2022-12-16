@@ -7,6 +7,21 @@
   pointer-events: none;
 }
 
+@media (orientation: portrait) {
+  .preview__graphics {
+    /* Align the logo to the vertical center in browsers without `svh` unit support */
+    margin-top: -15vh;
+    height: 300vh;
+  }
+
+  @supports (height: 1svh) {
+    .preview__graphics {
+      margin-top: 0;
+      height: 300svh;
+    }
+  }
+}
+
 .preview__graphics circle {
   transform: translateZ(0);
 }
@@ -17,7 +32,7 @@
   opacity: 0;
   animation-name: fadeIn;
   animation-duration: .9s;
-  animation-delay: .1s; /* Prevent layout shift on page loading */
+  animation-delay: .15s; /* Prevent layout shift on page loading */
   animation-timing-function: cubic-bezier(0, 0.75, 0.25, 1);
   animation-fill-mode: forwards;
 }
