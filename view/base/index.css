@@ -17,7 +17,7 @@ a,
 input,
 button {
   color: white;
-  
+
   &:focus {
     outline: 3px solid white;
   }
@@ -61,7 +61,7 @@ ul {
   line-height: 1.5;
 }
 
-ul li {
+.page ul li {
   font-style: italic;
   margin-bottom: 2vw;
 }
@@ -98,7 +98,7 @@ details {
 
       @media (min-width: 768px) {
         width: 1em;
-        height: .125em;
+        height: 0.125em;
       }
     }
 
@@ -116,7 +116,7 @@ details {
       color: white;
       background: black;
     }
-    
+
     & summary::after {
       transform: translateY(-50%) rotate(180deg);
     }
