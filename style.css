@@ -3,4 +3,5 @@
 @import "./view/base";
 @import "./view/header";
 @import "./view/page";
+@import "./view/footer/";
 @import "./view/preview";
