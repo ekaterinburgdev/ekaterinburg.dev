@@ -4,7 +4,7 @@ headerMore.addEventListener("click", (e) => {
   e.preventDefault();
   const target = document.querySelector(headerMore.getAttribute("href"));
   const yPos = target.getBoundingClientRect().top + window.scrollY;
-  smoothScrollTo(yPos, 10000);
+  smoothScrollTo(yPos, 15000);
 });
 
 const smoothScrollTo = (yPos, duration) => {
