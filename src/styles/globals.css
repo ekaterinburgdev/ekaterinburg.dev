@@ -44,8 +44,10 @@ p {
   display: block;
   padding: 0.6em 0.2em;
   color: white;
+}
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
+  p {
     font-size: 4vw;
     margin-left: 10%;
     margin-right: 10%;
@@ -95,11 +97,6 @@ details {
       text-align: right;
       transform: translateY(-50%);
       transition: transform 0.2s ease-in-out;
-
-      @media (min-width: 768px) {
-        width: 1em;
-        height: 0.125em;
-      }
     }
 
     &::after {
@@ -120,6 +117,14 @@ details {
     & summary::after {
       transform: translateY(-50%) rotate(180deg);
     }
+  }
+}
+
+@media (min-width: 768px) {
+  details summary:before,
+  details summary:after {
+    width: 1em;
+    height: 0.125em;
   }
 }
 

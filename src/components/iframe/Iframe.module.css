@@ -1,0 +1,6 @@
+.iframe {
+  width: 100%;
+  border: none;
+  min-height: 100%;
+  overflow: hidden;
+}

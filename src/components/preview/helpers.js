@@ -16,7 +16,12 @@ export function getDimensions() {
   };
 }
 
-export function useScroll({ element, onStartScroll, onScroll, onEndScroll }) {
+export function onScrollListener({
+  element,
+  onStartScroll,
+  onScroll,
+  onEndScroll,
+}) {
   let isScroll = false;
   let timer = null;
 
