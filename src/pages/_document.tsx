@@ -70,6 +70,13 @@ export default function Document() {
             `,
           }}
         />
+
+        <div
+          dangerouslySetInnerHTML={{
+            __html: `<script async src="https://tally.so/widgets/embed.js"></script>
+            `,
+          }}
+        />
       </body>
     </Html>
   );

@@ -8,7 +8,6 @@ interface IframeProps {
 export function Iframe({ src }: IframeProps) {
   useEffect(() => {
     function handleIframeMessage(event: MessageEvent) {
-      console.log(event.data);
       if (event.data.type === "iframeHeight") {
         const iframe = document.getElementById("my-iframe");
         if (iframe) {

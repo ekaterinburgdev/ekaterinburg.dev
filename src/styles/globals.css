@@ -55,17 +55,9 @@ p {
 }
 
 ul {
-  font-size: 3vw;
   list-style: none;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  line-height: 1.5;
-}
-
-.page ul li {
-  font-style: italic;
-  margin-bottom: 2vw;
+  padding: 0;
+  margin: 0;
 }
 
 details {

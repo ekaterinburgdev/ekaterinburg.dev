@@ -10,7 +10,7 @@ export function Road() {
       <img src={roadMiddleImg.src} alt="" />
       <div className={styles.road__logo} id="about">
         <AnimatedLogo
-          radius="clamp(80px, 30vw, 400px)"
+          radius="clamp(80px, 80vw, 1000px)"
           withLogoHover={false}
           shadowed
         />

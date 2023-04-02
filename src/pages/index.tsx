@@ -7,6 +7,8 @@ import { Header } from "@/components/header/Header";
 import { Footer } from "@/components/footer/Footer";
 import { Road } from "@/components/road/Road";
 import { Iframe } from "@/components/iframe/Iframe";
+import { Team } from "@/components/team/Team";
+import { MainAction } from "@/components/action/MainAction";
 
 export default function Home() {
   return (
@@ -135,6 +137,10 @@ export default function Home() {
       </main>
 
       <Iframe src="https://projects.ekaterinburg.dev/widget" />
+
+      <Team />
+
+      <MainAction />
 
       <Footer />
     </>

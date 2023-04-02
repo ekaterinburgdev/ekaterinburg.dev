@@ -2,6 +2,7 @@ import { ProjectsPanel, PROJECT_DEV, Theme } from "ekb";
 import styles from "@/components/footer/Footer.module.css";
 import tgSocialSrc from "@/components/footer/social/telegram-white.svg";
 import ghSocialSrc from "@/components/footer/social/github-white.svg";
+import { FooterAction } from "@/components/action/FooterAction";
 import "ekb/style.css";
 
 export function Footer() {
@@ -34,9 +35,7 @@ export function Footer() {
           />
         </a>
       </div>
-      <a className={styles.footerAction} href="mailto:mail@ekaterinburg.dev">
-        Написать нам
-      </a>
+      <FooterAction />
     </footer>
   );
 }
