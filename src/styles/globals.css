@@ -6,7 +6,7 @@ body {
   background-color: black;
   color: white;
   margin: 0;
-  /* BUG: Tally widget create scroll */
+  /* BUG: Tally widget creates horizontall scroll */
   overflow-x: hidden !important;
 }
 
@@ -38,7 +38,6 @@ h1 {
 }
 
 p {
-  font-size: 5.5vw;
   font-weight: 400;
   line-height: 1.2;
   overflow: hidden;
@@ -47,78 +46,10 @@ p {
   color: white;
 }
 
-@media (min-width: 768px) {
-  p {
-    font-size: 4vw;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-}
-
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-details {
-  border: 2px solid white;
-  border-radius: 6px;
-
-  & summary {
-    position: relative;
-    cursor: pointer;
-    background: white;
-    color: black;
-    list-style: none;
-    padding: 0.2em 0.8em;
-    transition: 0.1s opacity;
-
-    &:active {
-      opacity: 0.5;
-    }
-
-    &::before,
-    &::after {
-      width: 14px;
-      height: 3px;
-      position: absolute;
-      top: 50%;
-      right: 0.6em;
-      content: "";
-      background-color: currentColor;
-      text-align: right;
-      transform: translateY(-50%);
-      transition: transform 0.2s ease-in-out;
-    }
-
-    &::after {
-      transform: translateY(-50%) rotate(90deg);
-    }
-
-    &::-webkit-details-marker {
-      display: none;
-    }
-  }
-
-  &[open] {
-    & summary {
-      color: white;
-      background: black;
-    }
-
-    & summary::after {
-      transform: translateY(-50%) rotate(180deg);
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  details summary:before,
-  details summary:after {
-    width: 1em;
-    height: 0.125em;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
