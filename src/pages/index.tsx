@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
+import { useTranslations } from "next-intl";
 import cn from "classnames";
 import styles from "@/components/page/Page.module.css";
 import { Preview } from "@/components/preview/Preview";
@@ -10,23 +11,25 @@ import { Iframe } from "@/components/iframe/Iframe";
 import { Team } from "@/components/team/Team";
 import { MainAction } from "@/components/action/MainAction";
 import { Ecosystem } from "@/components/ecosystem/Ecosystem";
+import { GetStaticProps } from "next";
 
 export default function Home() {
+  const t = useTranslations("Dev");
+
   return (
     <>
       <Head>
-        <title>Код Екатеринбурга</title>
+        <title>{t("title")}</title>
       </Head>
-
       <Preview>
         <Header />
       </Preview>
 
       <Road />
 
-      <Ecosystem />
-
       <main className={cn(styles.page)}>
+        <Ecosystem />
+
         <h2>Экосистема Екатеринбурга</h2>
 
         <h3>Что происходит</h3>
@@ -104,3 +107,11 @@ export default function Home() {
     </>
   );
 }
+
+export const getStaticProps: GetStaticProps = async (context) => {
+  return {
+    props: {
+      messages: (await import(`../locales/${context.locale}.json`)).default,
+    },
+  };
+};
