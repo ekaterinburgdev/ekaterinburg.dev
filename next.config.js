@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["ekaterinburg.design"],
+    unoptimized: true,
   },
 };
 

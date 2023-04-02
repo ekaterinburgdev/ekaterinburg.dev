@@ -1,4 +1,3 @@
-import Image from "next/image";
 import classNames from "classnames/bind";
 import styles from "./TeamPerson.module.css";
 import { ITeamPerson } from "./types";
@@ -10,7 +9,7 @@ function Person({ name, role, photo }: ITeamPerson) {
     <figure className={cx("team-person__inner")}>
       {photo.length > 0 && (
         <div className={cx("team-person__photo")}>
-          <Image src={photo} width={300} height={300} alt="" />
+          <img src={photo} width={300} height={300} alt="" />
         </div>
       )}
       <figcaption className={cx("team-person__caption")}>

@@ -45,16 +45,14 @@ export default function Document() {
         <link rel="manifest" href="/site.webmanifest" />
 
         <link rel="dns-prefetch" href="https://mc.yandex.ru/" />
-
-        <script></script>
       </Head>
       <body>
         <Main />
         <NextScript />
 
-        <div
+        <script
           dangerouslySetInnerHTML={{
-            __html: `<script>
+            __html: `
             (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
               m[i].l=1*new Date();
               for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
@@ -66,17 +64,11 @@ export default function Document() {
                    trackLinks:true,
                    accurateTrackBounce:true
               });
-            </script>
             `,
           }}
         />
 
-        <div
-          dangerouslySetInnerHTML={{
-            __html: `<script async src="https://tally.so/widgets/embed.js"></script>
-            `,
-          }}
-        />
+        <script async src="https://tally.so/widgets/embed.js"></script>
       </body>
     </Html>
   );
