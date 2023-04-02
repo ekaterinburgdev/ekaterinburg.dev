@@ -6,7 +6,8 @@ body {
   background-color: black;
   color: white;
   margin: 0;
-  overflow-x: hidden;
+  /* BUG: Tally widget create scroll */
+  overflow-x: hidden !important;
 }
 
 a {
