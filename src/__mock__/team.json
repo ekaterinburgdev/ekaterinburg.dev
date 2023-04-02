@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Егор Макаров",
+    "role": "Веб-дизайнер",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/41dd6bf8-e593-4a5f-9fbb-396120b7eb63.png"
+  },
+  {
+    "name": "Анастасия Пелевина",
+    "role": "frontend-разработчик",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/9711409c-ccbc-4c82-b9ab-446878d25da8.jpg"
+  },
+  {
+    "name": "Антон Ахатов",
+    "role": "Frontend-разработчик",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/f0fb9e78-375a-4971-a5e8-39a7540cbae2.jpeg"
+  },
+  {
+    "name": "Настя Туманова",
+    "role": "Дизайнер",
+    "link": "https://www.behance.net/tytobitaetteplota",
+    "photo": "https://ekaterinburg.design/notion-static/0b0796b9-dd2f-4d15-999d-a01fd6cbd603.jpg"
+  },
+  {
+    "name": "Евгений Рамазанов",
+    "role": "Редактор",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/302afe4e-7dd7-4cbe-8606-112367dddfc8.jpeg"
+  },
+  {
+    "name": "Елизавета Капустина",
+    "role": "Дизайнер",
+    "link": "https://linktr.ee/kapusta.li",
+    "photo": "https://ekaterinburg.design/notion-static/d5056f57-e316-454f-9dd8-f3ad9b4de86f.jpeg"
+  },
+  {
+    "name": "Юлия Васюнина",
+    "role": "Менеджер",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/4695ad55-7238-485e-96ac-416a50a197c7.jpeg"
+  },
+  {
+    "name": "Семён Серебренников",
+    "role": "Дизайнер",
+    "link": "https://vk.com/semyonserebrennikov",
+    "photo": "https://ekaterinburg.design/notion-static/b9413c4c-1edb-4ca5-a548-bca90de52176.png"
+  },
+  {
+    "name": "Лев Трифонов",
+    "role": "Frontend-разработчик",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/c61be1b3-e0c1-4366-9a6b-b2c94fc11509.jpg"
+  },
+  {
+    "name": "Владислав Аткишкин",
+    "role": "Frontend-разработчик",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/b8d5faf3-013f-479f-8e15-38be16118240.jpeg"
+  },
+  {
+    "name": "Евгений Рогачев",
+    "role": "backend-разработчик",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/7ae71a0f-a060-49f4-875b-8461a6eb72bd.jpeg"
+  },
+  {
+    "name": "Дмитрий Фогель",
+    "role": "Директор, куратор",
+    "link": "https://www.facebook.com/profile.php?id=100002169084168",
+    "photo": "https://ekaterinburg.design/notion-static/114b0726-c70c-453b-8a41-6748a50c0411.jpg"
+  },
+  {
+    "name": "Александра Рогалина",
+    "role": "Журналист",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/56bd7d01-d992-4362-9088-effca307d27f.jpeg"
+  },
+  {
+    "name": "Полина Клыкова",
+    "role": "Архитектор",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/a45b0fe0-a193-4f53-b668-0c2372a32268.jpeg"
+  },
+  {
+    "name": "Надежда Обухова",
+    "role": "Переводчик",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/8cc1761c-6f0d-4226-b6d8-a74012e5461a.jpeg"
+  },
+  {
+    "name": "Анастасия Сафронова",
+    "role": "Дизайнер-иллюстратор",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/f6469acc-3c01-43ed-be25-bf0d4649d11c.jpg"
+  },
+  {
+    "name": "Александр Кряжев",
+    "role": "Веб-дизайнер",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/190cf62a-7104-46e1-9e85-14cd36cf2378.jpg"
+  },
+  {
+    "name": "Андрей Пушин",
+    "role": "Дизайнер",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/d6962816-e175-4730-a2fb-3464113681bc.jpeg"
+  },
+  {
+    "name": "Александр Чабин",
+    "role": "Frontend-разработчик",
+    "link": "https://twitter.com/nibach",
+    "photo": "https://ekaterinburg.design/notion-static/ea7be7fa-b064-48fa-b25e-0ce29a35ad87.jpg"
+  },
+  {
+    "name": "Диана Кучина",
+    "role": "Пиар-менеджер",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/d73ad0c1-aa37-4eff-a04d-89f57725da4d.jpeg"
+  },
+  {
+    "name": "Родион Баяндин",
+    "role": "Промышленный дизайнер",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/63ab5e35-ab38-43f0-8544-62dcd112230e.jpg"
+  },
+  {
+    "name": "Евгений Плотников",
+    "role": "Менеджер",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/c68397aa-3f72-4e1b-b79d-5adcdf78bc35.jpeg"
+  },
+  {
+    "name": "Мария Плотникова",
+    "role": "3D-дизайнер",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/f937e0a3-6d07-4789-8791-5542b5898457.jpeg"
+  },
+  {
+    "name": "Виктория Моторина",
+    "role": "Архитектор",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/527f2fe6-3c50-4a6d-8d35-855ca6078617.jpeg"
+  },
+  {
+    "name": "Николь Продос",
+    "role": "Дизайнер",
+    "link": "https://www.instagram.com/nicoleprodos/",
+    "photo": "https://ekaterinburg.design/notion-static/379ec976-bc01-46f0-874d-8e0b32411356.jpeg"
+  },
+  {
+    "name": "Мария Климовских",
+    "role": "Дизайнер",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/82c50b0a-5db4-4eda-8d4c-2f8b22f4359c.jpeg"
+  },
+  {
+    "name": "Кристина Гидион",
+    "role": "Дизайнер",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/4542b657-769c-4287-960a-8d519aafd91c.jpg"
+  },
+  {
+    "name": "Валерия Мусатова",
+    "role": "Дизайнер",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/eadeb001-1930-4e3e-a5b8-d9d9b77ea829.jpeg"
+  },
+  {
+    "name": "Андрей Трофименко",
+    "role": "Дизайнер",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/a8dfd5f9-d627-4a78-9e8e-4cf9051ff3bf.jpg"
+  },
+  {
+    "name": "Владислав Товкач",
+    "role": "Архитектор и&nbsp;куратор",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/d0ff25a8-2094-4431-bb97-a30b962d8db8.jpg"
+  },
+  {
+    "name": "Илья Полянских",
+    "role": "Затейник и&nbsp;куратор",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/101c7cc6-6c4a-4867-860b-727dad4218e4.jpg"
+  },
+  {
+    "name": "Екатерина Червонных",
+    "role": "Дизайнер",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/9d324178-be11-4e9b-94c2-fe0020454ef5.jpg"
+  },
+  {
+    "name": "Александра Братчикова",
+    "role": "Дизайнер",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/0c2fb230-2343-4054-86ea-bb1ee6c9f182.jpeg"
+  },
+  {
+    "name": "Алибек Курмашев",
+    "role": "Архитектор",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/ec94a756-5de3-4ddc-b228-5b9eee6ef43a.jpg"
+  },
+  {
+    "name": "Олег Донцов",
+    "role": "Мастер разных дел",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/ea3e5fbd-7aec-462c-b211-3d547fed004d.jpg"
+  },
+  {
+    "name": "Алла Айшпор",
+    "role": "Дизайнер-иллюстратор",
+    "link": "https://linktr.ee/ayshpor",
+    "photo": "https://ekaterinburg.design/notion-static/7bc8a6e2-babf-41ec-a71c-3a1a30d217fa.jpeg"
+  },
+  {
+    "name": "Анна Фёдорова",
+    "role": "Исследователь",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/b224f58b-0fb0-4d76-8a6e-f31047b91932.png"
+  },
+  {
+    "name": "Антон Власов",
+    "role": "Разносторонний спец",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/258d1b26-ae8c-4772-8958-5412bdce752b.jpg"
+  },
+  {
+    "name": "Мария Гундырева",
+    "role": "Дизайнер",
+    "link": "https://www.instagram.com/gyndureva/",
+    "photo": "https://ekaterinburg.design/notion-static/583a637e-4d79-4e0b-b559-dfc9082181e8.jpeg"
+  },
+  {
+    "name": "Кирилл Саламатов",
+    "role": "Дизайнер",
+    "link": "https://www.instagram.com/kir.p3ach/",
+    "photo": "https://ekaterinburg.design/notion-static/5a81fbf9-9604-4670-8209-ff98c4840e3b.jpg"
+  },
+  {
+    "name": "Денис Тараненко",
+    "role": "Архитектор",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/34bb6f85-75ab-4d65-95b0-858117127a17.jpeg"
+  },
+  {
+    "name": "Илья Ткач",
+    "role": "Промышленный дизайнер",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/9f07961e-9cc3-41f4-a583-151aaf09cd8a.jpeg"
+  },
+  {
+    "name": "Анна Ладыгина",
+    "role": "Консультант",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/d2342037-ec59-44f5-834b-c5f77b11d23f.jpg"
+  },
+  {
+    "name": "Анна Лычагина",
+    "role": "Промышленный дизайнер",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/185267b1-197d-4b55-8b72-1ff124136f45.jpg"
+  },
+  {
+    "name": "Сергей Шашмурин",
+    "role": "Промышленный дизайнер и&nbsp;куратор",
+    "link": "https://www.facebook.com/sergey.shashmurin.1",
+    "photo": "https://ekaterinburg.design/notion-static/f49f3135-ed46-4c7f-85c2-88c743efca13.jpg"
+  },
+  {
+    "name": "Михаил Череда",
+    "role": "Куратор и&nbsp;дизайнер",
+    "link": "https://www.facebook.com/mchereda",
+    "photo": "https://ekaterinburg.design/notion-static/b3cca1b9-1f69-46e8-811a-d16731355437.jpeg"
+  },
+  {
+    "name": "Павел Казанцев",
+    "role": "Начальник «Столица Урала»",
+    "link": null,
+    "photo": "https://ekaterinburg.design/notion-static/d7fc0b33-e074-4342-9b15-b4714f322360.jpeg"
+  },
+  {
+    "name": "Дмитрий Фатхиев-Долохов",
+    "role": "Дизайнер-иллюстратор и&nbsp;куратор",
+    "link": "https://www.facebook.com/dimgafat",
+    "photo": "https://ekaterinburg.design/notion-static/25ece086-051c-4076-bff0-8b061758ad25.jpg"
+  },
+  {
+    "name": "Паша Омелёхин",
+    "role": "Руководитель и&nbsp;куратор",
+    "link": "https://www.instagram.com/omelekhin/",
+    "photo": "https://ekaterinburg.design/notion-static/4b85d8b3-8836-4bc0-9e87-9925955b956e.jpg"
+  },
+  {
+    "name": "Елена Пшенина",
+    "role": "Дизайнер",
+    "link": "https://www.facebook.com/profile.php?id=100008241100470",
+    "photo": "https://ekaterinburg.design/notion-static/4c9bce6d-9c03-4515-a440-9d2e00e389fa.jpg"
+  },
+  {
+    "name": "Владислав Деревянных",
+    "role": "Куратор и&nbsp;дизайнер",
+    "link": "https://www.facebook.com/profile.php?id=100000719476103",
+    "photo": "https://ekaterinburg.design/notion-static/861a227b-dcd2-46e9-be84-2547530a78d0.jpg"
+  },
+  {
+    "name": "Алексей Быков",
+    "role": "Куратор и&nbsp;промышленный дизайнер",
+    "link": "https://www.facebook.com/albydesign",
+    "photo": "https://ekaterinburg.design/notion-static/4a2cfafb-46c4-4494-ab88-33687f87ae43.jpg"
+  }
+]

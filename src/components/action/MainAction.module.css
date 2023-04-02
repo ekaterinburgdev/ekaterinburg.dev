@@ -1,0 +1,21 @@
+.mainaction {
+  display: block;
+  padding: 0.75em 1.8em;
+  font-size: 6.05vw;
+  font-weight: 500;
+  color: #020004;
+  border-radius: 100em;
+  background: #ffd301;
+  text-decoration: none;
+  transition: transform 0.15s ease;
+  line-height: 1;
+  text-align: center;
+}
+
+.mainaction:hover {
+  transform: scale(1.08);
+}
+
+.mainaction__wrapper {
+  margin: 50vh 8vw 25vh;
+}

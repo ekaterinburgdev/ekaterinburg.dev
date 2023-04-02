@@ -14,7 +14,7 @@
 @keyframes footer-fadein {
   from {
     opacity: 0;
-  } 
+  }
   60% {
     opacity: 0;
   }
@@ -81,22 +81,6 @@
   width: auto;
 }
 
-.footerAction {
-  padding: 0.65vw 1.25vw 0.65vw;
-  border-radius: 10vw;
-  background-color: #ffd400;
-  font-size: 1.05vw;
-  font-weight: 400;
-  line-height: 1.1;
-  color: #000;
-  line-height: 1.4;
-  transition: all 0.15s ease;
-}
-
-.footerAction:hover {
-  transform: scale(1.08);
-}
-
 @media screen and (max-width: 768px) {
   .footer {
     bottom: 1.5vw;
@@ -125,9 +109,4 @@
   .footerlinks__item {
     display: none;
   }
-
-  .footerAction {
-    padding: 1.75vw 4vw 1.75vw;
-    font-size: 4vw;
-  }
-} 
+}
