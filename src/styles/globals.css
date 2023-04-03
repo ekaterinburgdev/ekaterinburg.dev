@@ -1,13 +1,18 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  overflow-x: hidden !important; /* BUG: Tally widget creates `overflow: visible` after closing */
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
   font-family: "Iset Sans", monospace;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
-  color: white;
-  margin: 0;
-  /* BUG: Tally widget creates horizontall scroll */
-  overflow-x: hidden !important;
 }
 
 a {
@@ -28,35 +33,10 @@ button {
   }
 }
 
-h1 {
-  line-height: 1.3;
-  overflow: hidden;
-  display: block;
-  padding: 0.2em 0.2em;
-  font-size: 6vw;
-  font-weight: 900;
-}
-
-h3 {
-	color: #ffd400;
-	font-weight: 500;
-	margin: 1em 0 .25em .1em;
-}
-
-p {
-  font-weight: 300;
-  line-height: 1.375;
-  overflow: hidden;
-  display: block;
-  padding: 0.6em 0.2em;
-  color: white;
-	margin: 0;
-}
-
 ul {
-  list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 @media (prefers-reduced-motion: reduce) {

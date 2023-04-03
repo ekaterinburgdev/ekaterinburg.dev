@@ -1,21 +1,43 @@
 .page {
-  font-size: 5vw;
-  width: 60%;
   margin: 0 auto;
+  padding: 0 8vw;
   padding-bottom: 60px;
+  font-size: 5vw;
+
+  & h2 {
+    display: block;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 15vw;
+    padding: 0.2em 0.2em;
+    color: white;
+    font-weight: 600;
+    font-size: 8vw;
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  & h3 {
+    margin: 1em 0 .25em .1em;
+    color: #ffd400;
+    font-weight: 500;
+  }
+  
+  & p {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0.6em 0.2em;
+    color: white;
+    font-weight: 300;
+    line-height: 1.375;
+  }
 }
 
 @media (min-width: 768px) {
   .page {
+    width: 60%;
+    padding: 0;
     font-size: 2.25vw;
-
   }
-}
-
-.page__text {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 900;
-  color: rgb(255,212,0);
-  letter-spacing: .1em;
 }

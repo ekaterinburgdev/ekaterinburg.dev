@@ -1,5 +1,7 @@
 .preview {
   position: relative;
+  max-width: 100vw;
+  overflow: hidden;
 }
 
 .preview__graphics {
@@ -15,6 +17,7 @@
 
   @supports (height: 1svh) {
     .preview__graphics {
+      display: inline-block;
       margin-top: 0;
       height: 300dvh;
     }

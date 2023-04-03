@@ -9,6 +9,7 @@ import { Road } from "@/components/road/Road";
 import { Iframe } from "@/components/iframe/Iframe";
 import { Team } from "@/components/team/Team";
 import { MainAction } from "@/components/action/MainAction";
+import { Ecosystem } from "@/components/ecosystem/Ecosystem";
 
 export default function Home() {
   return (
@@ -16,15 +17,20 @@ export default function Home() {
       <Head>
         <title>Код Екатеринбурга</title>
       </Head>
+      
       <Preview>
         <Header />
       </Preview>
 
       <Road />
 
+      <Ecosystem />
+
       <main className={cn(styles.page)}>
+        <h2>Экосистема Екатеринбурга</h2>
+        
         {/*
-          <p className={cn(styles.page__text)}>
+          <p>
           Поздравляем!
           <br />
           Вы&nbsp;самый любопытный!
