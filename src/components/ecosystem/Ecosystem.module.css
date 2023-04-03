@@ -1,0 +1,11 @@
+.ecosystem {
+  overflow: hidden;
+}
+
+.ecosystem__logo {
+  position: relative;
+  z-index: 1;
+  max-height: 90vh;
+  margin: 0 auto .5vw;
+  aspect-ratio: 1 / 1;
+}

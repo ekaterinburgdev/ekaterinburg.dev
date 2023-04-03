@@ -1,9 +1,12 @@
 .team-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-items: start;
   justify-content: space-between;
+  align-items: start;
+  margin: 0;
   margin: 5vh -1vw;
+  padding: 0 2vw;
+  list-style: none;
 }
 
 .team-grid__item {
