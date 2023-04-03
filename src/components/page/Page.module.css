@@ -32,12 +32,6 @@
     font-weight: 300;
     line-height: 1.375;
   }
-  
-  & ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
 }
 
 @media (min-width: 768px) {

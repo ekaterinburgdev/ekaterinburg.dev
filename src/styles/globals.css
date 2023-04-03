@@ -33,6 +33,12 @@ button {
   }
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     transition: none !important;
