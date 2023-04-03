@@ -17,15 +17,16 @@ export default function Home() {
       <Head>
         <title>Код Екатеринбурга</title>
       </Head>
+      
       <Preview>
         <Header />
       </Preview>
 
       <Road />
 
-      <main className={cn(styles.page)}>
-        <Ecosystem />
+      <Ecosystem />
 
+      <main className={cn(styles.page)}>
         <h2>Экосистема Екатеринбурга</h2>
         
         {/*
