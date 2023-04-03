@@ -30,7 +30,7 @@ export function Header() {
           className={cn(mainStyles.mainaction)}
           href="#about"
           data-id="header-more"
-          dangerouslySetInnerHTML={{ __html: t.raw("learnMore") }}
+          dangerouslySetInnerHTML={{ __html: t.raw("Learn more") }}
         />
       </div>
     </header>
