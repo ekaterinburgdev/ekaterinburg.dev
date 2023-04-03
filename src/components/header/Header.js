@@ -10,6 +10,10 @@ export function Header() {
 
   return (
     <header className={cn(styles.header)}>
+      <div dangerouslySetInnerHTML={{ __html:
+        '<!-- Кстати, раз ты это заметил — при скролле шапка немного скачет, нам бы пригодилась твоя помощь на GitHub 🎩 -->'
+        }} />
+
       <div className={cn(styles.header__text)}>
         <p data-id="header-text">
           Это Код Екатеринбурга&nbsp;&mdash; команда, которая сделает
@@ -22,7 +26,7 @@ export function Header() {
           href="#about"
           data-id="header-more"
         >
-          Узнать, что мы&nbsp;будем делать
+          Нажми, чтобы узнать, что мы&nbsp;будем делать 🫦
         </a>
       </div>
     </header>

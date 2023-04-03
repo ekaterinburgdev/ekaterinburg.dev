@@ -5,7 +5,7 @@ export function MainAction() {
   return (
     <div className={styles.mainaction__wrapper}>
       <a className={styles.mainaction} href={ACTION_LINK}>
-        Го к нам
+        Колл ту экшн
       </a>
     </div>
   );

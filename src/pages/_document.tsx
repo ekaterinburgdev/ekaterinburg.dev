@@ -49,7 +49,6 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-
         <script
           dangerouslySetInnerHTML={{
             __html: `

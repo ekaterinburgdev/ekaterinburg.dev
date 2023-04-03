@@ -4,7 +4,7 @@ import styles from "./FooterAction.module.css";
 export function FooterAction() {
   return (
     <a className={styles.footerAction} href={ACTION_LINK}>
-      Написать нам
+      Присоединиться к нам
     </a>
   );
 }
