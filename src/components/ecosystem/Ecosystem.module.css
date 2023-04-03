@@ -1,11 +1,20 @@
 .ecosystem {
+  position: relative;
   overflow: hidden;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  margin-top: -20%;
+  margin-bottom: -20%;
+  background-image: url(./ecosystem-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  z-index: -1;
 }
 
 .ecosystem__logo {
-  position: relative;
+  overflow: hidden;
   z-index: 1;
   max-height: 90vh;
-  margin: 0 auto .5vw;
+  margin: 0 auto 0.5vw;
   aspect-ratio: 1 / 1;
 }
