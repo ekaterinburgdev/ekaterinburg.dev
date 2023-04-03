@@ -4,7 +4,6 @@
   justify-content: space-between;
   align-items: start;
   margin: 0;
-  margin: 5vh -1vw;
   padding: 0 2vw;
   list-style: none;
 }
@@ -54,6 +53,8 @@
     grid-template-columns: repeat(6, 1fr);
     align-items: start;
     justify-content: space-between;
+    margin: 5vh -1vw;
+    padding: 0;
   }
 
   .team-grid__item {

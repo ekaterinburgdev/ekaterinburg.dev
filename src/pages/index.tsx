@@ -29,7 +29,7 @@ export default function Home() {
         <h2>Экосистема Екатеринбурга</h2>
         
         {/*
-          <p className={cn(styles.page__text)}>
+          <p>
           Поздравляем!
           <br />
           Вы&nbsp;самый любопытный!
