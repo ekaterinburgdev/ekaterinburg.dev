@@ -24,6 +24,6 @@ export function Iframe({ src }: IframeProps) {
   }, [src]);
 
   return (
-    <iframe id="my-iframe" className={styles.iframe} src={src} scrolling="no" />
+    <iframe id="my-iframe" className={styles.iframe} src={src} scrolling="no" sandbox="allow-scripts allow-top-navigation allow-same-origin allow-popups" />
   );
 }
