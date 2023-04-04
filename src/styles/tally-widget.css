@@ -1,0 +1,12 @@
+body {
+  overflow-x: hidden !important; /* BUG: Tally widget creates `overflow: visible` after closing */
+}
+
+.tally-popup {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  bottom: auto !important;
+  right: auto !important;
+  transform: translate(-50%, -50%) !important;
+}
