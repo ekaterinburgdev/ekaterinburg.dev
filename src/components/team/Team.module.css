@@ -3,7 +3,8 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   align-items: start;
-  margin: 0;
+  margin-top: 5vh;
+  margin-bottom: 100px;
   padding: 0 2vw;
   list-style: none;
 }
@@ -11,8 +12,7 @@
 .team-grid__item {
   position: relative;
   margin: 0;
-  padding: 0 1vw 40%;
-
+  padding: 0 1vw 40px;
   &:nth-child(3n-1) {
     transform: translate(0, 50%);
   }
@@ -31,7 +31,6 @@
 @media screen and (min-width: 768px) {
   .team-grid {
     grid-template-columns: repeat(4, 1fr);
-    padding-bottom: 0;
   }
 
   .team-grid__item {
@@ -53,8 +52,6 @@
     grid-template-columns: repeat(6, 1fr);
     align-items: start;
     justify-content: space-between;
-    margin: 5vh -1vw;
-    padding: 0;
   }
 
   .team-grid__item {
@@ -75,6 +72,6 @@
 
 @media screen and (min-width: 1440px) {
   .team-grid__item {
-    padding: 0 1vw 50%;
+    padding: 0 1vw 150px;
   }
 }

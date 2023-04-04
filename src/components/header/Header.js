@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import cn from "classnames";
 import styles from "./Header.module.css";
+import mainStyles from "../action/MainAction.module.css";
 import { initSmoothScroll } from "./smooth-scroll";
 
 export function Header() {
@@ -10,9 +11,12 @@ export function Header() {
 
   return (
     <header className={cn(styles.header)}>
-      <div dangerouslySetInnerHTML={{ __html:
-        '<!-- Кстати, раз ты это заметил — при скролле шапка немного скачет, нам бы пригодилась твоя помощь на GitHub 🎩 -->'
-        }} />
+      <div
+        dangerouslySetInnerHTML={{
+          __html:
+            "<!-- Кстати, раз ты это заметил — при скролле шапка немного скачет, нам бы пригодилась твоя помощь на GitHub 🎩 -->",
+        }}
+      />
 
       <div className={cn(styles.header__text)}>
         <p data-id="header-text">
@@ -22,7 +26,7 @@ export function Header() {
           вы&nbsp;мечтали. Это&nbsp;&mdash; проект судьбы.
         </p>
         <a
-          className={cn(styles.header__more)}
+          className={cn(mainStyles.mainaction)}
           href="#about"
           data-id="header-more"
         >

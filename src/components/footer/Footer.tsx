@@ -2,8 +2,8 @@ import { ProjectsPanel, PROJECT_DEV, Theme } from "ekb";
 import styles from "@/components/footer/Footer.module.css";
 import tgSocialSrc from "@/components/footer/social/telegram-white.svg";
 import ghSocialSrc from "@/components/footer/social/github-white.svg";
-import { FooterAction } from "@/components/action/FooterAction";
 import "ekb/style.css";
+import { ACTION_LINK } from "../action/constants";
 
 export function Footer() {
   return (
@@ -35,7 +35,9 @@ export function Footer() {
           />
         </a>
       </div>
-      <FooterAction />
+      <a className={styles.footerAction} href={ACTION_LINK}>
+        Присоединиться к нам
+      </a>
     </footer>
   );
 }

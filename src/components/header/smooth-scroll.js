@@ -5,7 +5,7 @@ export function initSmoothScroll() {
     e.preventDefault();
     const target = document.querySelector(headerMore.getAttribute("href"));
     const yPos = target.getBoundingClientRect().top + window.scrollY;
-    smoothScrollTo(yPos, 15000);
+    smoothScrollTo(yPos - window.scrollY * 0.02, 15000);
   });
 
   const smoothScrollTo = (yPos, duration) => {
