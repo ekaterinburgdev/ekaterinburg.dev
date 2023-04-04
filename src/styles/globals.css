@@ -1,10 +1,11 @@
+@import "./tally-widget.css";
+
 html {
   margin: 0;
   padding: 0;
 }
 
 body {
-  overflow-x: hidden !important; /* BUG: Tally widget creates `overflow: visible` after closing */
   margin: 0;
   padding: 0;
   background-color: black;
