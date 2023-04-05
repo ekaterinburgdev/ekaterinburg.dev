@@ -1,10 +1,13 @@
 import { useEffect } from "react";
+import { useTranslations } from "next-intl";
 import cn from "classnames";
 import styles from "./Header.module.css";
 import mainStyles from "../action/MainAction.module.css";
 import { initSmoothScroll } from "./smooth-scroll";
 
 export function Header() {
+  const t = useTranslations("Dev");
+
   useEffect(() => {
     initSmoothScroll();
   }, []);
@@ -19,19 +22,16 @@ export function Header() {
       />
 
       <div className={cn(styles.header__text)}>
-        <p data-id="header-text">
-          Это Код Екатеринбурга&nbsp;&mdash; команда, которая сделает
-          невозможное. Невыполнимое, сложное и&nbsp;безумное. Сделает&nbsp;то,
-          что никто не&nbsp;сможет. Это тот проект, о&nbsp;котором
-          вы&nbsp;мечтали. Это&nbsp;&mdash; проект судьбы.
-        </p>
+        <p
+          data-id="header-text"
+          dangerouslySetInnerHTML={{ __html: t.raw("header") }}
+        ></p>
         <a
           className={cn(mainStyles.mainaction)}
           href="#about"
           data-id="header-more"
-        >
-          Нажми, чтобы узнать, что мы&nbsp;будем делать 🫦
-        </a>
+          dangerouslySetInnerHTML={{ __html: t.raw("Learn more") }}
+        />
       </div>
     </header>
   );
