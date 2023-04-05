@@ -1,12 +1,14 @@
+import classNames from "classnames";
 import { ACTION_LINK } from "./constants";
 import styles from "./MainAction.module.css";
 
 export function MainAction() {
   return (
-    <div className={styles.mainaction__wrapper}>
-      <a className={styles.mainaction} href={ACTION_LINK}>
-        Колл ту экшн
-      </a>
-    </div>
+    <a
+      className={classNames(styles.mainaction, styles.mainactionFooter)}
+      href={ACTION_LINK}
+    >
+      Колл ту экшн
+    </a>
   );
 }
