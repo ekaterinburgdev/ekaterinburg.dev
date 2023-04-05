@@ -5,12 +5,12 @@ import { Preview } from "@/components/preview/Preview";
 import { Header } from "@/components/header/Header";
 import { Footer } from "@/components/footer/Footer";
 import { Road } from "@/components/road/Road";
+import { MainText } from "@/components/main-text/MainText";
 import { Iframe } from "@/components/iframe/Iframe";
 import { Team } from "@/components/team/Team";
 import { MainAction } from "@/components/action/MainAction";
 import { Ecosystem } from "@/components/ecosystem/Ecosystem";
 import { GetStaticProps } from "next";
-import { Page } from "@/components/page/Page";
 
 export default function Home() {
   const t = useTranslations("Dev");
@@ -20,7 +20,7 @@ export default function Home() {
       <Head>
         <title>{t("title")}</title>
       </Head>
-      
+
       <Preview>
         <Header />
       </Preview>
@@ -29,9 +29,11 @@ export default function Home() {
 
       <Ecosystem />
 
-      <Page />
+      <MainText
+        projects={<Iframe src="https://projects.ekaterinburg.dev/widget" />}
+        team={<Team />}
+      />
 
-      <Iframe src="https://projects.ekaterinburg.dev/widget" />
       <Team />
 
       <MainAction />
