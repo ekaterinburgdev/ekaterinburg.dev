@@ -55,10 +55,10 @@
 }
 
 .footerAction {
-  padding: 24px 48px;
+  padding: 24px 32px;
   border-radius: 10vw;
   background-color: #ffd400;
-  font-size: 20px;
+  font-size: 24px;
   color: #000;
   line-height: 1.4;
   transition: all 0.15s ease;

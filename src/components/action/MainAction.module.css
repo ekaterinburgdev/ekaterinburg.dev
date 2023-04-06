@@ -6,35 +6,54 @@
   padding: 0.75em 3.5vw;
   margin: 60vh 8vw 65vh;
   border-radius: 10vw;
-  color: #000;
+  color: #fff;
   text-decoration: none;
   transition: all 0.15s cubic-bezier(0.52, 0.51, 0.39, 0.99);
   background-color: #ffd400;
-  font-size: 3.5vw;
+  font-size: 6vw;
   font-weight: 500;
-  box-shadow: 0 0.2vw 0 rgba(0, 0, 0, 0.1),
-    0 1.25vw 0 -0.1vw rgba(255, 212, 0, 0.5);
+  box-shadow: 0 1.25vw 0 -0.1vw rgba(255, 212, 0, 0.5);
   transform: translateY(-1.25vw);
-  padding: 2.5vw 4vw;
+  padding: 3vw 0 4.5vw;
 }
 
 .mainactionFooter {
-  margin: 10vh 8vw 35vh;
+  font-size: 8vw;
+  margin: 4vh 8vw 35vh;
+  overflow: visible;
+}
+
+.rocket {
+  display: inline-block;
+  transform: translate(0%, 0%) scale(1);
+  transition: all 0.15s cubic-bezier(0.52, 0.51, 0.39, 0.99);
 }
 
 @media (hover: hover) {
   .mainaction:hover {
-    box-shadow: 0 0.2vw 0 rgba(0, 0, 0, 0.1),
-      0 0.75vw 0 -0.1vw rgba(255, 212, 0, 0.5);
+    box-shadow: 0 0.1vw 0 0 rgba(255, 255, 255, .25) inset,
+                0 0.75vw 0 -0.1vw rgba(255, 212, 0, 0.5),
+                0 0.75vw 0 0.01vw rgba(0, 0, 0, 0.15),
+                0 1vw 0 100vw rgba(0, 180, 0, 1);
     transform: translateY(-0.75vw);
-    padding: 2.15vw 3.5vw 2.85vw;
+  }
+  .mainactionFooter:hover {
+    box-shadow: 0 0.1vw 0 0 rgba(255, 255, 255, .25) inset,
+                0 0.75vw 0 -0.1vw rgba(255, 212, 0, 0.5),
+                0 0.75vw 0 0.01vw rgba(0, 0, 0, 0.15),
+                0 1vw 0 100vw rgba(0, 180, 255, 1);
+    transform: translateY(-0.75vw);
+
+    .rocket {
+      transform: translate(50%, -50%) scale(1.5);
+    }
   }
 }
 
-.mainaction:active {
-  background-color: #ffda00;
-  box-shadow: 0 0.2vw 0 rgba(0, 0, 0, 0.1),
-    0 0.5vw 0 -0.1vw rgba(255, 212, 0, 0.5);
+/* .mainaction:active {
+  box-shadow: 0 0.1vw 0 0 rgba(255, 255, 255, .25) inset,
+              0 0.5vw 0 -0.1vw rgba(255, 212, 0, 0.5),
+              0 0.5vw 0 0.01vw rgba(0, 0, 0, 0.15),
+              0 1vw 0 100vw rgba(0, 180, 0, 1);
   transform: translateY(-0.5vw);
-  padding: 2.05vw 3.5vw 2.95vw;
-}
+} */
