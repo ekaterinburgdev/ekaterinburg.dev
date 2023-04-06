@@ -8,7 +8,7 @@ export function MainAction() {
       className={classNames(styles.mainaction, styles.mainactionFooter)}
       href={ACTION_LINK}
     >
-      Колл ту экшн
+      Колл ту экшн <div className={classNames(styles.rocket)}>🚀</div>
     </a>
   );
 }
