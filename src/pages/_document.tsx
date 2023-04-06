@@ -3,7 +3,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   const siteUrl = "https://ekaterinburg.dev/";
-  const siteDescription = "🤫";
+  const siteDescription = "Делаем цифровую экосистему города 🚀";
   const ogTitle = "Код Екатеринбурга";
   const ogImage = `${siteUrl}og-preview.jpg`;
 
@@ -57,7 +57,7 @@ export default function Document() {
               for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
               k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
               (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-            
+
               ym(90436467, "init", {
                    clickmap:true,
                    trackLinks:true,
