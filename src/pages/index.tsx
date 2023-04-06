@@ -89,9 +89,11 @@ export default function Home() {
 
       <Footer />
 
-      <a className={cn(styles.email)} href="">
-        mail@ekaterinburg.dev
-      </a>
+      <div className={cn(styles.email__wrap)}>
+        <a className={cn(styles.email)} href="mailto:mail@ekaterinburg.dev">
+          mail@ekaterinburg.dev
+        </a>
+      </div>
     </>
   );
 }
