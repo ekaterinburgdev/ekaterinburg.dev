@@ -2,11 +2,15 @@ import { useEffect } from "react";
 import cn from "classnames";
 import styles from "./Header.module.css";
 import mainStyles from "../action/MainAction.module.css";
-import { initSmoothScroll } from "./smooth-scroll";
+import { initSmoothScroll } from ".";
 
 export function Header() {
   useEffect(() => {
-    initSmoothScroll();
+    const unsubscribe = initSmoothScroll();
+
+    return () => {
+      unsubscribe();
+    };
   }, []);
 
   return (
@@ -22,7 +26,8 @@ export function Header() {
         <h1 className={cn(styles.headline)}>Это — Код Екатеринбурга</h1>
 
         <p data-id="header-text">
-          Команда, которая сделает невозможное. Невыполнимое, сложное и безумное. Это тот проект, о котором вы мечтали. Это — проект судьбы.
+          Команда, которая сделает невозможное. Невыполнимое, сложное
+          и безумное. Это тот проект, о котором вы мечтали. Это — проект судьбы.
         </p>
 
         <a
@@ -30,12 +35,12 @@ export function Header() {
           href="#about"
           data-id="header-more"
         >
-          Нажми, чтобы узнать,<br/>что мы&nbsp;будем делать
+          Нажми, чтобы узнать,
+          <br />
+          что мы&nbsp;будем делать
         </a>
 
-        <span className={cn(styles.emoji)}>
-          😉
-        </span>
+        <span className={cn(styles.emoji)}>😉</span>
       </div>
     </header>
   );

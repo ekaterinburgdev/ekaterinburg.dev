@@ -8,8 +8,10 @@ import {
 } from "./helpers";
 
 export function initPreviewAnimation() {
-  const wrapperElement = document.querySelector(".preview");
-  const graphicsElement = document.querySelector(".preview__graphics");
+  const wrapperElement = document.querySelector(".preview") as HTMLDivElement;
+  const graphicsElement = document.querySelector(
+    ".preview__graphics"
+  ) as SVGElement;
 
   // setup circles
   const CIRCLES = 32;
@@ -128,7 +130,7 @@ export function initPreviewAnimation() {
       timeline.pause();
       timeline.seek(timeline.duration * (timeline.progress * 0.01) + 10);
     },
-    onScroll: (scrollPosition) => {
+    onScroll: (scrollPosition: number) => {
       const current = timeline.duration * (timeline.progress * 0.01);
       const scroll = timeline.duration * (scrollPosition * 0.01);
       timeline.seek((current + scroll) / 2);
@@ -141,8 +143,8 @@ export function initPreviewAnimation() {
     const { vw, vh } = getDimensions();
     const ORIGIN = { x: "50%", y: "-50%" };
 
-    svg.setAttribute("width", vw);
-    svg.setAttribute("heigth", vh);
+    svg.setAttribute("width", String(vw));
+    svg.setAttribute("heigth", String(vh));
     svg.setAttribute("viewBox", `0 0 ${vw} ${vh}`);
 
     circles.map((circle) => {
@@ -155,4 +157,8 @@ export function initPreviewAnimation() {
   }
   onResize();
   window.addEventListener("resize", onResize);
+
+  return () => {
+    window.removeEventListener("resize", onResize);
+  };
 }

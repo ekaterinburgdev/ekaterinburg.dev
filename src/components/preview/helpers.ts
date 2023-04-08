@@ -1,6 +1,6 @@
 export const SVG_DOCTYPE = "http://www.w3.org/2000/svg";
 
-export function getScrollPercent(scrollHeight) {
+export function getScrollPercent(scrollHeight: number) {
   const doc = document.documentElement;
   const scrollTop = doc.scrollTop || document.body.scrollTop;
 
@@ -21,9 +21,14 @@ export function onScrollListener({
   onStartScroll,
   onScroll,
   onEndScroll,
+}: {
+  element: HTMLElement;
+  onStartScroll: (scrollPosition: number) => void;
+  onScroll: (scrollPosition: number) => void;
+  onEndScroll: (scrollPosition: number) => void;
 }) {
   let isScroll = false;
-  let timer = null;
+  let timer: ReturnType<typeof setTimeout>;
 
   window.addEventListener(
     "scroll",
@@ -53,5 +58,5 @@ export function onScrollListener({
 
 export const checkIsMobile = () => window.innerWidth < 768;
 
-export const clamp = (num, min, max) =>
+export const clamp = (num: number, min: number, max: number) =>
   num <= min ? min : num >= max ? max : num;
