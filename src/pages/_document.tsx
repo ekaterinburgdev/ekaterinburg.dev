@@ -5,7 +5,7 @@ export default function Document() {
   const siteUrl = "https://ekaterinburg.dev/";
   const siteDescription = "Делаем цифровую экосистему города 🚀";
   const ogTitle = "Код Екатеринбурга";
-  const ogImage = `${siteUrl}og-preview.jpg`;
+  const ogImage = `${siteUrl}opengraph/cover.jpg`;
 
   return (
     <Html lang="ru">

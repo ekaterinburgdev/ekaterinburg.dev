@@ -33,7 +33,7 @@
     line-height: 1.4;
 
     & a {
-      box-shadow: 0 2px 0 0 rgba(255, 255, 255, .3);
+      box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.3);
     }
 
     &.investors {
@@ -41,8 +41,8 @@
       color: #ffd400;
       border: solid 2px #ffd400;
       border-radius: 12px;
-      margin: .5em .25em;
-      padding: .5em .75em;
+      margin: 0.5em 0.25em;
+      padding: 0.5em 0.75em;
     }
 
     &.final {
@@ -62,8 +62,8 @@
   color: #ffd400;
   font-size: 5vw;
   font-weight: 500;
-  opacity: .3;
-  box-shadow: 0 2px 0 0 rgba(255, 212, 0, .5);
+  opacity: 0.5;
+  box-shadow: 0 2px 0 0 rgba(255, 212, 0, 0.5);
   transition: all 0.15s cubic-bezier(0.52, 0.51, 0.39, 0.99);
 }
 
@@ -81,7 +81,7 @@
 
     & p {
       & a {
-        box-shadow: 0 4px 0 0 rgba(255, 255, 255, .3);
+        box-shadow: 0 4px 0 0 rgba(255, 255, 255, 0.3);
         &:hover {
           color: #ffd400;
           box-shadow: 0 3px 0 0 rgba(255, 212, 0, 1);
@@ -108,7 +108,7 @@
 
   .email {
     font-size: 2.5vw;
-    box-shadow: 0 4px 0 0 rgba(255, 212, 0, .5);
+    box-shadow: 0 4px 0 0 rgba(255, 212, 0, 0.5);
     &:hover {
       opacity: 1;
       box-shadow: 0 4px 0 0 rgba(255, 212, 0, 0.6);
