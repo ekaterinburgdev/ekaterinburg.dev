@@ -4,9 +4,15 @@ import previewLogo from "@/components/preview/logo.svg";
 import styles from "./Preview.module.css";
 import { initPreviewAnimation } from "./preview-animation";
 
-export function Preview({ children }: { children: ReactNode }) {
+interface Props {
+  children: ReactNode;
+}
+
+export function Preview({ children }: Props) {
   useEffect(() => {
-    initPreviewAnimation();
+    const unsubscribe = initPreviewAnimation();
+
+    return unsubscribe;
   }, []);
 
   return (
@@ -26,7 +32,6 @@ export function Preview({ children }: { children: ReactNode }) {
         </svg>
       </div>
       <div className={cn(styles.preview__content)}></div>
-
       {children}
     </div>
   );

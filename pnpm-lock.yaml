@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/animejs': ^3.1.7
   '@types/node': 18.15.6
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
@@ -31,6 +32,9 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   typescript: 5.0.2
+
+devDependencies:
+  '@types/animejs': 3.1.7
 
 packages:
 
@@ -656,6 +660,10 @@ packages:
     dependencies:
       tslib: 2.5.0
     dev: false
+
+  /@types/animejs/3.1.7:
+    resolution: {integrity: sha512-kFSyjM+fLo3oE9noWEtUvF82ttN8fTrKohiEMIrSzEzEjnsCmtO0rBCUQBlSPEb2w8vfN+v4/Zo0tK21Bgmq4g==}
+    dev: true
 
   /@types/estree/1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
