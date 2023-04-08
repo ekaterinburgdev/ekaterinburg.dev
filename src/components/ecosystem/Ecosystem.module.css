@@ -18,3 +18,12 @@
   margin: 0 auto 0.5vw;
   aspect-ratio: 1 / 1;
 }
+
+@media (max-width: 768px) {
+  .ecosystem {
+    padding-top: 40%;
+    padding-bottom: 40%;
+    margin-top: -40%;
+    margin-bottom: -40%;
+  }
+}
