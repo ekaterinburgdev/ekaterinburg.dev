@@ -20,10 +20,10 @@
 }
 
 @media (max-width: 768px) {
-	.ecosystem {
-		padding-top: 40%;
-		padding-bottom: 40%;
-		margin-top: -40%;
-		margin-bottom: -40%;
-	}
+  .ecosystem {
+    padding-top: 40%;
+    padding-bottom: 40%;
+    margin-top: -40%;
+    margin-bottom: -40%;
+  }
 }

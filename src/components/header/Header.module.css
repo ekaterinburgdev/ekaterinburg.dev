@@ -40,13 +40,13 @@
     line-height: 1.2;
   }
 
-	.headline {
-	  font-size: 6vw;
-	}
+  .headline {
+    font-size: 6vw;
+  }
 
-	.emoji {
-		font-size: 5vw;
-	}
+  .emoji {
+    font-size: 5vw;
+  }
 }
 
 @media (max-width: 768px) {

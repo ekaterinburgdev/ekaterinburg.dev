@@ -62,11 +62,11 @@
 } */
 
 @media (min-width: 768px) {
-	.mainaction {
-	  font-size: 6vw;
-	}
-	.mainactionFooter {
-	  font-size: 8vw;
-		margin: 4vh 8vw;
-	}
+  .mainaction {
+    font-size: 6vw;
+  }
+  .mainactionFooter {
+    font-size: 8vw;
+    margin: 4vh 8vw;
+  }
 }
