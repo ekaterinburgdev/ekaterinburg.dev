@@ -7,7 +7,7 @@
   & h2 {
     display: block;
     overflow: hidden;
-    margin-top: 2vh;
+    margin-top: 6vh;
     margin-bottom: 15vw;
     padding: 0.2em 0.2em;
     color: white;
@@ -83,6 +83,7 @@
 
 		& h2 {
 			font-size: 8vw;
+			margin-top: 2vw;
 		}
 
 		& p {
