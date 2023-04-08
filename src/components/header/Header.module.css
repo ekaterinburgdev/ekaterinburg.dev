@@ -7,7 +7,7 @@
 
 .headline {
   color: #00f000;
-  font-size: 6vw;
+  font-size: 7.5vw;
   font-weight: 500;
   margin: 15vw 0 1vw;
 }
@@ -23,12 +23,12 @@
   text-align: center;
   font-weight: 400;
   /* margin-top: 8vw; */
-  font-size: 5.5vw;
+  font-size: 6.5vw;
   line-height: 1.2;
 }
 
 .emoji {
-  font-size: 5vw;
+  font-size: 10vw;
 }
 
 @media (min-width: 768px) {
@@ -39,6 +39,14 @@
     padding-right: 10%;
     line-height: 1.2;
   }
+
+	.headline {
+	  font-size: 6vw;
+	}
+
+	.emoji {
+		font-size: 5vw;
+	}
 }
 
 @media (max-width: 768px) {

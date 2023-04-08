@@ -55,10 +55,10 @@ export default function Home() {
 
         <Iframe src="https://projects.ekaterinburg.dev/widget" />
 
-        <h3>Кто нам нужен</h3>
+        <h3>Кого мы ищем</h3>
 
         <p>
-          Сумасшедшие энтузиасты по&nbsp;следующим направлениям: Artificial intelligence, Big Data,
+          Сумасшедших энтузиастов по&nbsp;следующим направлениям: Artificial intelligence, Big Data,
           Machine Learning, C#, Python, React, Node.js, iOS/Android development, customer development, UI/UX design.
         </p>
 
@@ -73,9 +73,7 @@ export default function Home() {
         </p>
 
         <p>
-          В&nbsp;нашей команде уже есть крутые ребята из&nbsp;Контура, Яндекса,
-          Точки. И мы&nbsp;ждём к&nbsp;нам всех профессионалов, кто готов
-          создать цифровой город будущего.
+          В&nbsp;нашей команде уже есть крутые ребята из&nbsp;Контура, Яндекса, Точки. И мы&nbsp;ждём к&nbsp;нам всех профессионалов, кто готов cоздать цифровой город будущего.
         </p>
 
         <Team />

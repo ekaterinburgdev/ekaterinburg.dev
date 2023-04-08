@@ -55,7 +55,7 @@
 }
 
 .footerAction {
-  padding: 24px 32px;
+  padding: 20px 32px;
   border-radius: 10vw;
   background-color: #ffd400;
   font-size: 24px;
@@ -94,7 +94,9 @@
   }
 
   .footerAction {
-    padding: 16px 24px;
+    padding: 12px 20px;
+		font-size: 16px;
+		margin-bottom: 4px;
   }
 }
 
