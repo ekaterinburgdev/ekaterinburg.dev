@@ -50,7 +50,7 @@ export default function Home() {
 
         <p>
           У нас уже 10&nbsp;проектов и&nbsp;заряженная команда.
-          В&nbsp;ближайшие месяцы планируются большие анонсы всех проектов и&nbsp;разработка новых. Подписывайтесь на <a href="https://github.com/ekaterinburgdev/" target="_blank">гитхаб</a>.
+          В&nbsp;ближайшие месяцы планируются большие анонсы всех проектов и&nbsp;разработка новых. Подписывайтесь на <a href="https://github.com/ekaterinburgdev/" target="_blank">гитхаб</a> и ждите новый дроп.
         </p>
 
         <Iframe src="https://projects.ekaterinburg.dev/widget" />
@@ -69,7 +69,7 @@ export default function Home() {
         </p>
 
         <p className={cn(styles.investors)}>
-          Более того, мы&nbsp;ищем инвесторов, спонсоров и&nbsp;партнёров!
+          Более того, мы&nbsp;ищем инвесторов, спонсоров и&nbsp;партнёров! Почта для связи: <a href="mailto:investor@ekaterinburg.dev">investor@ekaterinburg.dev</a>
         </p>
 
         <p>

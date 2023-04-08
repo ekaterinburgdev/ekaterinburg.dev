@@ -33,14 +33,11 @@
     line-height: 1.4;
 
     & a {
-      box-shadow: 0 4px 0 0 rgba(255, 255, 255, .3);
-      &:hover {
-        color: #ffd400;
-        box-shadow: 0 3px 0 0 rgba(255, 212, 0, 1);
-      }
+      box-shadow: 0 2px 0 0 rgba(255, 255, 255, .3);
     }
 
     &.investors {
+      width: 85%;
       color: #ffd400;
       border: solid 2px #ffd400;
       border-radius: 12px;
@@ -51,7 +48,7 @@
     &.final {
       font-size: 135%;
       font-weight: 500;
-			line-height: 1.2;
+      line-height: 1.2;
       margin-top: 5vw;
     }
   }
@@ -66,12 +63,8 @@
   font-size: 5vw;
   font-weight: 500;
   opacity: .3;
-  box-shadow: 0 0.2vw 0 0 rgba(255, 212, 0, .5);
+  box-shadow: 0 2px 0 0 rgba(255, 212, 0, .5);
   transition: all 0.15s cubic-bezier(0.52, 0.51, 0.39, 0.99);
-  &:hover {
-    opacity: 1;
-    box-shadow: 0 0.2vw 0 0 rgba(255, 212, 0, 0.6);
-  }
 }
 
 @media (min-width: 768px) {
@@ -79,33 +72,46 @@
     width: 60%;
     padding: 0;
     font-size: 2.25vw;
-		padding-bottom: 60px;
+    padding-bottom: 60px;
 
-		& h2 {
-			font-size: 8vw;
-			margin-top: 2vw;
-		}
+    & h2 {
+      font-size: 8vw;
+      margin-top: 2vw;
+    }
 
-		& p {
-			&.investors {
-				border: solid 4px #ffd400;
-				border-radius: 16px;
-			}
+    & p {
+      & a {
+        box-shadow: 0 4px 0 0 rgba(255, 255, 255, .3);
+        &:hover {
+          color: #ffd400;
+          box-shadow: 0 3px 0 0 rgba(255, 212, 0, 1);
+        }
+      }
 
-			&.final {
-				font-size: 150%;
-				margin-top: 20vw;
-				text-align: center;
-			}
-		}
+      &.investors {
+        border: solid 4px #ffd400;
+        border-radius: 16px;
+      }
+
+      &.final {
+        font-size: 150%;
+        margin-top: 20vw;
+        text-align: center;
+      }
+    }
   }
 
-	.email__wrap {
-		text-align: center;
-	  margin: 16vw 0 8vw;
-	}
+  .email__wrap {
+    text-align: center;
+    margin: 16vw 0 8vw;
+  }
 
-	.email {
-	  font-size: 2.5vw;
-	}
+  .email {
+    font-size: 2.5vw;
+    box-shadow: 0 4px 0 0 rgba(255, 212, 0, .5);
+    &:hover {
+      opacity: 1;
+      box-shadow: 0 4px 0 0 rgba(255, 212, 0, 0.6);
+    }
+  }
 }
