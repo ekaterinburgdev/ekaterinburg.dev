@@ -30,57 +30,57 @@ export default function Home() {
           <Ecosystem />
 
           <main className={cn(styles.page)}>
-            <h2>Ekaterinburg Digital Ecosystem</h2>
+            <h2>エカテリンブルグのデジタルエコシステム</h2>
 
-            <h3>What’s happening</h3>
+            <h3>何が起こっているのか</h3>
 
             <p>
-              Today, a city is not just a place to live but a complex infrastructure of services, functions, events, scenarios, and interactions that determine the comfort and quality of life. For one person to understand it all is, to put it mildly, difficult.
+              今日、都市とは単なる生活の場ではなく、サービス、機能、イベント、シナリオ、相互作用の複雑なインフラであり、それらがこの人生の快適さと品質を決定します。一人の人間がすべてを理解するのは、言わば難しいことです。
             </p>
 
             <p>
-              That’s why we plan to create a unification of all urban spheres in one place—the digital ecosystem of Ekaterinburg. It will simplify and automate the lives of citizens, businesses, and government.
+              そこで、私たちはすべての都市領域を一つの場所に統合することを計画しています - エカテリンブルグのデジタルエコシステム。これにより、市民、ビジネス、行政の生活が簡素化され、自動化されます。
             </p>
 
-            <h3>Why here</h3>
+            <h3>なぜここに</h3>
 
             <p>
-              Because Ekaterinburg is a city of enthusiasts. We are passionate about what we do. We unite to move mountains, not compete for profit. We are a community.
+              なぜなら、エカテリンブルグは熱意に満ちた街だからです。私たちは自分の仕事に情熱を持っています。山を動かすために団結し、利益のために競争しないのです。私たちはコミュニティです。
             </p>
 
-            <h3>What we already have and what’s in the plans</h3>
+            <h3>すでにあるものと今後の予定</h3>
 
             <p>
-              We already have 10 projects and an energized team. In the coming months, major announcements of all projects and the development of new ones are planned. Follow us on <a href="https://github.com/ekaterinburgdev/" target="_blank">GitHub</a>.
+              すでに10のプロジェクトと活力に満ちたチームがあります。今後数ヶ月で、すべてのプロジェクトの大きな発表と新しいものの開発が予定されています。<a href="https://github.com/ekaterinburgdev/" target="_blank">GitHub</a>でフォローしてください。
             </p>
 
             <Iframe src="https://projects.ekaterinburg.dev/widget" />
 
-            <h3>Who we are looking for</h3>
+            <h3>私たちが探している人物</h3>
 
             <p>
-              Crazy enthusiasts in the following fields: Artificial Intelligence, Big Data, Machine Learning, C#, Python, React, Node.js, iOS/Android development, customer development, UI/UX design.
+              以下の分野の熱狂的な愛好家：人工知能、ビッグデータ、機械学習、C#、Python、React、Node.js、iOS/Android開発、顧客開発、UI/UXデザイン。
             </p>
 
             <p>
-              We are also looking for leaders, art directors, product managers, financiers, salespeople, testers, analysts, copywriters, producers.
+              また、リーダー、アートディレクター、プロダクトマネージャー、ファイナンシャルアドバイザー、セールス、テスター、アナリスト、コピーライター、プロデューサーを探しています。
             </p>
 
             <p className={cn(styles.investors)}>
-              Moreover, we are looking for investors, sponsors, and partners! Contact email:{" "}
+              さらに、投資家、スポンサー、パートナーを探しています！連絡先メール：{" "}
               <a href="mailto:investor@ekaterinburg.dev">
                 investor@ekaterinburg.dev
               </a>
             </p>
 
             <p>
-              Our team already has cool guys from Kontur, Yandex, Tochka. And we are waiting for all professionals who are ready to create a digital city of the future.
+              私たちのチームには、Kontur、Yandex、Tochkaからの素晴らしいメンバーがすでにいます。そして、未来のデジタルシティを創造する準備ができているすべてのプロフェッショナルを待っています。
             </p>
 
             <Team />
 
             <p className={cn(styles.final)}>
-              Our locomotive is already racing at full speed. Hop on while there’s room.
+              私たちの機関車はすでに全速力で走っています。まだ間に合ううちに乗ってください。
             </p>
           </main>
 
