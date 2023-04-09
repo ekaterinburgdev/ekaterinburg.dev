@@ -10,7 +10,7 @@ body {
   padding: 0;
   background-color: black;
   color: white;
-  font-family: "Iset Sans", monospace;
+  font-family: "Martian Mono", "Iset Sans", monospace;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
