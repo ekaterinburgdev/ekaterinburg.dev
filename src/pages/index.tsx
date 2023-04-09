@@ -30,57 +30,57 @@ export default function Home() {
           <Ecosystem />
 
           <main className={cn(styles.page)}>
-            <h2>Digitales Ökosystem von Jekaterinburg</h2>
+            <h2>Écosystème numérique d’Iekaterinbourg</h2>
 
-            <h3>Was passiert</h3>
+            <h3>Ce qui se passe</h3>
 
             <p>
-              Heute ist eine Stadt nicht nur ein Ort zum Leben, sondern eine komplexe Infrastruktur von Dienstleistungen, Funktionen, Ereignissen, Szenarien und Interaktionen, die den Komfort und die Lebensqualität bestimmen. Für eine Person ist es gelinde gesagt schwierig, all das zu verstehen.
+              Aujourd’hui, une ville n’est pas seulement un lieu de vie, mais une infrastructure complexe de services, fonctions, événements, scénarios et interactions qui déterminent le confort et la qualité de vie. Pour une personne, comprendre tout cela est, pour le dire gentiment, difficile.
             </p>
 
             <p>
-              Deshalb planen wir, alle städtischen Bereiche an einem Ort zu vereinen — das digitale Ökosystem von Jekaterinburg. Es wird das Leben von Bürgern, Unternehmen und Verwaltung vereinfachen und automatisieren.
+              C’est pourquoi nous prévoyons de créer une unification de tous les domaines urbains en un seul endroit — l’écosystème numérique d’Iekaterinbourg. Il simplifiera et automatisera la vie des citoyens, des entreprises et de l’administration.
             </p>
 
-            <h3>Warum hier</h3>
+            <h3>Pourquoi ici</h3>
 
             <p>
-              Weil Jekaterinburg eine Stadt von Enthusiasten ist. Wir sind leidenschaftlich bei dem, was wir tun. Wir vereinen uns, um Berge zu versetzen, nicht um Gewinne zu konkurrieren. Wir sind eine Gemeinschaft.
+              Parce qu’Iekaterinbourg est une ville d’enthousiastes. Nous sommes passionnés par ce que nous faisons. Nous nous unissons pour déplacer des montagnes, et non pas pour rivaliser pour le profit. Nous sommes une communauté.
             </p>
 
-            <h3>Was wir bereits haben und was in Planung ist</h3>
+            <h3>Ce que nous avons déjà et ce qui est prévu</h3>
 
             <p>
-              Wir haben bereits 10 Projekte und ein motiviertes Team. In den kommenden Monaten sind große Ankündigungen aller Projekte und die Entwicklung neuer geplant. Folgen Sie uns auf <a href="https://github.com/ekaterinburgdev/" target="_blank">GitHub</a>.
+              Nous avons déjà 10 projets et une équipe motivée. Dans les mois à venir, des annonces majeures concernant tous les projets et le développement de nouveaux projets sont prévues. Suivez-nous sur <a href="https://github.com/ekaterinburgdev/" target="_blank">GitHub</a>.
             </p>
 
             <Iframe src="https://projects.ekaterinburg.dev/widget" />
 
-            <h3>Wen wir suchen</h3>
+            <h3>Qui nous recherchons</h3>
 
             <p>
-              Verrückte Enthusiasten in den folgenden Bereichen: Künstliche Intelligenz, Big Data, maschinelles Lernen, C#, Python, React, Node.js, iOS/Android-Entwicklung, Kundengewinnung, UI/UX-Design.
+              Des passionnés fous dans les domaines suivants : Intelligence Artificielle, Big Data, Apprentissage Automatique, C#, Python, React, Node.js, développement iOS/Android, développement client, design UI/UX.
             </p>
 
             <p>
-              Wir suchen auch Führungskräfte, Art-Direktoren, Produktmanager, Finanziers, Verkäufer, Tester, Analysten, Texter, Produzenten.
+              Nous recherchons également des leaders, des directeurs artistiques, des chefs de produit, des financiers, des commerciaux, des testeurs, des analystes, des rédacteurs, des producteurs.
             </p>
 
             <p className={cn(styles.investors)}>
-              Darüber hinaus suchen wir Investoren, Sponsoren und Partner! Kontakt-E-Mail:{" "}
+              De plus, nous recherchons des investisseurs, des sponsors et des partenaires ! E-mail de contact :{" "}
               <a href="mailto:investor@ekaterinburg.dev">
                 investor@ekaterinburg.dev
               </a>
             </p>
 
             <p>
-              In unserem Team sind bereits coole Leute von Kontur, Yandex, Tochka. Und wir warten auf alle Fachleute, die bereit sind, eine digitale Stadt der Zukunft zu schaffen.
+              Notre équipe compte déjà des personnes formidables de Kontur, Yandex, Tochka. Et nous attendons tous les professionnels prêts à créer une ville numérique du futur.
             </p>
 
             <Team />
 
             <p className={cn(styles.final)}>
-              Unsere Lokomotive rast bereits mit voller Geschwindigkeit. Steigen Sie ein, solange es noch Platz gibt.
+              Notre locomotive est déjà lancée à pleine vitesse. Montez à bord tant qu’il y a de la place.
             </p>
           </main>
 

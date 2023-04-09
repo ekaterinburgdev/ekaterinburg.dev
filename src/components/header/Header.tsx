@@ -18,15 +18,15 @@ export function Header() {
       <div
         dangerouslySetInnerHTML={{
           __html:
-            "<!-- Dieses Issue ist bereits auf GitHub und wartet auf Sie: https://github.com/ekaterinburgdev/ekaterinburg.dev/issues/29 -->",
+            "<!-- Ce problème est déjà sur GitHub et vous attend: https://github.com/ekaterinburgdev/ekaterinburg.dev/issues/29 -->",
         }}
       />
 
       <div className={cn(styles.header__text)}>
-        <h1 className={cn(styles.headline)}>Das ist der Jekaterinburg-Code</h1>
+        <h1 className={cn(styles.headline)}>C’est le Code d’Iekaterinbourg</h1>
 
         <p data-id="header-text">
-          Ein Team, das das Unmögliche schafft. Das Unausführbare, komplexe und verrückte. Das ist das Projekt, von dem Sie geträumt haben. Das ist das Schicksalsprojekt.
+          Une équipe qui accomplira l’impossible. Impraticable, compliqué et fou. C’est le projet dont vous avez rêvé. C’est le projet du destin.
         </p>
 
         <a
@@ -34,7 +34,7 @@ export function Header() {
           href="#about"
           data-id="header-more"
         >
-          Klicken Sie,<br/>um herauszufinden,<br/>was wir tun werden
+          Cliquez pour<br/>découvrir ce que<br/>nous allons faire
         </a>
 
         <span className={cn(styles.emoji)}>😉</span>
