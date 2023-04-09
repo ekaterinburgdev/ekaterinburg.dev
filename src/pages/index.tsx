@@ -30,57 +30,57 @@ export default function Home() {
           <Ecosystem />
 
           <main className={cn(styles.page)}>
-            <h2>Digitales Ökosystem von Jekaterinburg</h2>
+            <h2>Ecosistema digital de Ekaterimburgo</h2>
 
-            <h3>Was passiert</h3>
+            <h3>Qué está pasando</h3>
 
             <p>
-              Heute ist eine Stadt nicht nur ein Ort zum Leben, sondern eine komplexe Infrastruktur von Dienstleistungen, Funktionen, Ereignissen, Szenarien und Interaktionen, die den Komfort und die Lebensqualität bestimmen. Für eine Person ist es gelinde gesagt schwierig, all das zu verstehen.
+              Hoy en día, una ciudad no es solo un lugar para vivir, sino una compleja infraestructura de servicios, funciones, eventos, escenarios e interacciones que determinan la comodidad y calidad de vida. Entender todo esto por sí mismo, por decirlo suavemente, es difícil.
             </p>
 
             <p>
-              Deshalb planen wir, alle städtischen Bereiche an einem Ort zu vereinen — das digitale Ökosystem von Jekaterinburg. Es wird das Leben von Bürgern, Unternehmen und Verwaltung vereinfachen und automatisieren.
+              Por eso, planeamos crear una unión de todos los ámbitos urbanos en un solo lugar: el ecosistema digital de Ekaterimburgo. Esto simplificará y automatizará la vida de los ciudadanos, los negocios y la administración.
             </p>
 
-            <h3>Warum hier</h3>
+            <h3>Por qué aquí</h3>
 
             <p>
-              Weil Jekaterinburg eine Stadt von Enthusiasten ist. Wir sind leidenschaftlich bei dem, was wir tun. Wir vereinen uns, um Berge zu versetzen, nicht um Gewinne zu konkurrieren. Wir sind eine Gemeinschaft.
+              Porque Ekaterimburgo es una ciudad de entusiastas. Nos apasiona nuestro trabajo. Nos unimos para mover montañas, no para competir por el beneficio. Somos una comunidad.
             </p>
 
-            <h3>Was wir bereits haben und was in Planung ist</h3>
+            <h3>Qué tenemos y qué está planeado</h3>
 
             <p>
-              Wir haben bereits 10 Projekte und ein motiviertes Team. In den kommenden Monaten sind große Ankündigungen aller Projekte und die Entwicklung neuer geplant. Folgen Sie uns auf <a href="https://github.com/ekaterinburgdev/" target="_blank">GitHub</a>.
+              Ya tenemos 10 proyectos y un equipo lleno de energía. En los próximos meses, se planean grandes anuncios de todos los proyectos y el desarrollo de nuevos. Suscríbete a <a href="https://github.com/ekaterinburgdev/" target="_blank">GitHub</a>.
             </p>
 
             <Iframe src="https://projects.ekaterinburg.dev/widget" />
 
-            <h3>Wen wir suchen</h3>
+            <h3>A quién buscamos</h3>
 
             <p>
-              Verrückte Enthusiasten in den folgenden Bereichen: Künstliche Intelligenz, Big Data, maschinelles Lernen, C#, Python, React, Node.js, iOS/Android-Entwicklung, Kundengewinnung, UI/UX-Design.
+              Entusiastas apasionados en las siguientes áreas: Inteligencia artificial, Big Data, Machine Learning, C#, Python, React, Node.js, desarrollo de iOS/Android, desarrollo de clientes, diseño de UI/UX.
             </p>
 
             <p>
-              Wir suchen auch Führungskräfte, Art-Direktoren, Produktmanager, Finanziers, Verkäufer, Tester, Analysten, Texter, Produzenten.
+              También estamos buscando líderes, directores de arte, gerentes de productos, financieros, vendedores, probadores, analistas, redactores y productores.
             </p>
 
             <p className={cn(styles.investors)}>
-              Darüber hinaus suchen wir Investoren, Sponsoren und Partner! Kontakt-E-Mail:{" "}
+              Además, buscamos inversores, patrocinadores y socios. Correo de contacto:{" "}
               <a href="mailto:investor@ekaterinburg.dev">
                 investor@ekaterinburg.dev
               </a>
             </p>
 
             <p>
-              In unserem Team sind bereits coole Leute von Kontur, Yandex, Tochka. Und wir warten auf alle Fachleute, die bereit sind, eine digitale Stadt der Zukunft zu schaffen.
+              En nuestro equipo ya tenemos chicos geniales de Kontur, Yandex y Tochka. Y estamos esperando a todos los profesionales que estén listos para crear la ciudad digital del futuro.
             </p>
 
             <Team />
 
             <p className={cn(styles.final)}>
-              Unsere Lokomotive rast bereits mit voller Geschwindigkeit. Steigen Sie ein, solange es noch Platz gibt.
+              Nuestra locomotora ya está corriendo a toda velocidad. Únete mientras haya espacio.
             </p>
           </main>
 
