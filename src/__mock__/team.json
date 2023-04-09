@@ -14,7 +14,7 @@
     {
         "name": "Антон Ахатов",
         "role": "frontend-разработчик",
-        "link": null,
+        "link": "https://ahatov.com/",
         "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/f0fb9e78-375a-4971-a5e8-39a7540cbae2.jpeg"
     },
     {
@@ -79,7 +79,7 @@
     },
     {
         "name": "Евгений Рамазанов",
-        "role": "Редактор",
+        "role": "Продакт менеджер и редактор",
         "link": "https://t.me/overedited",
         "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/302afe4e-7dd7-4cbe-8606-112367dddfc8.jpeg"
     },
