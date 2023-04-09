@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Код Екатеринбурга</title>
+        <title>ekaterinburg.dev</title>
       </Head>
 
       <div data-id="scroller-wrapper">
