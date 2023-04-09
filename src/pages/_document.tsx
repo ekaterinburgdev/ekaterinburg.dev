@@ -8,7 +8,7 @@ export default function Document() {
   const ogImage = `${siteUrl}opengraph/cover.jpg`;
 
   return (
-    <Html lang="en">
+    <Html lang="cn">
       <Head>
         <meta name="theme-color" content="#000000" />
         <meta name="description" content={siteDescription} />
