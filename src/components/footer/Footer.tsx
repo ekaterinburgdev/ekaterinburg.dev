@@ -36,7 +36,7 @@ export function Footer() {
         </a>
       </div>
       <a className={styles.footerAction} href={ACTION_LINK}>
-        Write us
+        문의하기
       </a>
     </footer>
   );
