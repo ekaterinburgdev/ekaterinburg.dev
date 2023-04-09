@@ -1,0 +1,96 @@
+.select {
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 28px;
+  padding: 16px 30px 16px 50px;
+  border-radius: 30px;
+  background-color: #000;
+  line-height: 1;
+  position: relative;
+  transition: all 0.1s ease;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  color: #fff;
+  &:focus,
+  &:hover {
+    background-color: #ffd400;
+    color: #000;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 4px solid currentColor;
+  }
+}
+
+.select__content {
+  min-width: fit-content;
+  border-radius: 30px;
+  outline: 0px;
+  background-color: #000;
+  outline: none;
+  position: relative;
+  padding: 16px;
+  margin-top: -60px;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    border-radius: 14px;
+    background-color: #202226;
+  }
+}
+
+.select__scroller {
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 70vh;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.option {
+  padding: 0 60px 0 24px;
+  cursor: pointer;
+  border-radius: 14px;
+  font-size: 24px;
+  line-height: 64px;
+  color: #fff;
+  outline: none;
+  position: relative;
+}
+
+.option__checkmark {
+  position: absolute;
+  right: 14px;
+  background-color: #fff;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 900px) {
+  .select {
+    padding: 16px 20px 16px 36px;
+    font-size: 16px;
+    &:before {
+      left: 16px;
+      width: 6px;
+      height: 6px;
+      border-width: 2px;
+    }
+  }
+}

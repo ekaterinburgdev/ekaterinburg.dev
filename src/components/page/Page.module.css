@@ -1,3 +1,7 @@
+.root {
+  position: relative;
+}
+
 .page {
   margin: 0 auto;
   padding: 0 4vw;
