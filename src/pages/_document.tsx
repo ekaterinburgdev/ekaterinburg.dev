@@ -3,7 +3,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   const siteUrl = "https://ekaterinburg.dev/";
-  const siteDescription = "Wir schaffen ein digitales Ökosystem der Städte 🚀";
+  const siteDescription = "Nous créons un écosystème numérique de villes 🚀";
   const ogTitle = "ekaterinburg.dev";
   const ogImage = `${siteUrl}opengraph/cover.jpg`;
 
