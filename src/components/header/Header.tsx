@@ -18,7 +18,7 @@ export function Header() {
       <div
         dangerouslySetInnerHTML={{
           __html:
-            "<!-- Этот ишью уже на гитхабе и ждёт тебя: https://github.com/ekaterinburgdev/ekaterinburg.dev/issues/29 -->",
+            "<!-- This issue is already on GitHub waiting for you: https://github.com/ekaterinburgdev/ekaterinburg.dev/issues/29 -->",
         }}
       />
 
