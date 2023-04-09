@@ -4,7 +4,7 @@
   left: 16px;
   right: 16px;
   bottom: 16px;
-  display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
   animation: footer-fadein 2s cubic-bezier(0.25, 0.85, 0.7, 0.75) forwards;
