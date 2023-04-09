@@ -30,57 +30,57 @@ export default function Home() {
           <Ecosystem />
 
           <main className={cn(styles.page)}>
-            <h2>Écosystème numérique d’Iekaterinbourg</h2>
+            <h2>叶卡捷琳堡的数字生态系统</h2>
 
-            <h3>Ce qui se passe</h3>
+            <h3>正在发生什么</h3>
 
             <p>
-              Aujourd’hui, une ville n’est pas seulement un lieu de vie, mais une infrastructure complexe de services, fonctions, événements, scénarios et interactions qui déterminent le confort et la qualité de vie. Pour une personne, comprendre tout cela est, pour le dire gentiment, difficile.
+              如今，城市不仅仅是生活的地方，还是一个包含服务、功能、事件、场景和互动的复杂基础设施，这些共同决定了生活的舒适度和质量。一个人要弄清楚这一切，说得轻一点，是很困难的。
             </p>
 
             <p>
-              C’est pourquoi nous prévoyons de créer une unification de tous les domaines urbains en un seul endroit — l’écosystème numérique d’Iekaterinbourg. Il simplifiera et automatisera la vie des citoyens, des entreprises et de l’administration.
+              因此，我们计划在一个地方将所有城市领域统一起来——叶卡捷琳堡的数字生态系统。它将简化和自动化市民、企业和管理部门的生活。
             </p>
 
-            <h3>Pourquoi ici</h3>
+            <h3>为什么在这里</h3>
 
             <p>
-              Parce qu’Iekaterinbourg est une ville d’enthousiastes. Nous sommes passionnés par ce que nous faisons. Nous nous unissons pour déplacer des montagnes, et non pas pour rivaliser pour le profit. Nous sommes une communauté.
+              因为叶卡捷琳堡是一个热情洋溢的城市。我们对自己的事业充满激情。我们团结起来，为了实现目标，而不是为了利润而竞争。我们是一个社区。
             </p>
 
-            <h3>Ce que nous avons déjà et ce qui est prévu</h3>
+            <h3>已经有什么和计划中的什么</h3>
 
             <p>
-              Nous avons déjà 10 projets et une équipe motivée. Dans les mois à venir, des annonces majeures concernant tous les projets et le développement de nouveaux projets sont prévues. Suivez-nous sur <a href="https://github.com/ekaterinburgdev/" target="_blank">GitHub</a>.
+              我们已经有10个项目和一个充满活力的团队。在接下来的几个月里，计划公布所有项目的重大消息并开发新项目。在 <a href="https://github.com/ekaterinburgdev/" target="_blank">GitHub</a> 上关注我们。
             </p>
 
             <Iframe src="https://projects.ekaterinburg.dev/widget" />
 
-            <h3>Qui nous recherchons</h3>
+            <h3>我们在寻找谁</h3>
 
             <p>
-              Des passionnés fous dans les domaines suivants : Intelligence Artificielle, Big Data, Apprentissage Automatique, C#, Python, React, Node.js, développement iOS/Android, développement client, design UI/UX.
+              在以下领域的疯狂热衷者：人工智能、大数据、机器学习、C#、Python、React、Node.js、iOS/Android开发、客户开发、UI/UX设计。
             </p>
 
             <p>
-              Nous recherchons également des leaders, des directeurs artistiques, des chefs de produit, des financiers, des commerciaux, des testeurs, des analystes, des rédacteurs, des producteurs.
+              我们还在寻找领导者、艺术总监、产品经理、金融家、销售人员、测试人员、分析师、撰稿人、制片人。
             </p>
 
             <p className={cn(styles.investors)}>
-              De plus, nous recherchons des investisseurs, des sponsors et des partenaires ! E-mail de contact :{" "}
+              此外，我们还在寻找投资者、赞助商和合作伙伴！联系邮箱：{" "}
               <a href="mailto:investor@ekaterinburg.dev">
                 investor@ekaterinburg.dev
               </a>
             </p>
 
             <p>
-              Notre équipe compte déjà des personnes formidables de Kontur, Yandex, Tochka. Et nous attendons tous les professionnels prêts à créer une ville numérique du futur.
+              我们的团队已经有了来自 Kontur、Yandex、Tochka 的酷小伙伴。我们期待所有准备好创建未来数字城市的专业人士加入我们。
             </p>
 
             <Team />
 
             <p className={cn(styles.final)}>
-              Notre locomotive est déjà lancée à pleine vitesse. Montez à bord tant qu’il y a de la place.
+              我们的火车已经全速前进。赶快上车，还有空位。
             </p>
           </main>
 

@@ -8,7 +8,7 @@ export function MainAction() {
       className={classNames(styles.mainaction, styles.mainactionFooter)}
       href={ACTION_LINK}
     >
-      Appel à l’action <div className={classNames(styles.rocket)}>🚀</div>
+      行动呼吁 <div className={classNames(styles.rocket)}>🚀</div>
     </a>
   );
 }

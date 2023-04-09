@@ -36,7 +36,7 @@ export function Footer() {
         </a>
       </div>
       <a className={styles.footerAction} href={ACTION_LINK}>
-        Écrivez-nous
+        给我们写信
       </a>
     </footer>
   );
