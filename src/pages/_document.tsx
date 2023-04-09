@@ -3,12 +3,12 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   const siteUrl = "https://ekaterinburg.dev/";
-  const siteDescription = "Wir schaffen ein digitales Ökosystem der Städte 🚀";
+  const siteDescription = "Estamos a criar um ecossistema digital de cidades 🚀";
   const ogTitle = "ekaterinburg.dev";
   const ogImage = `${siteUrl}opengraph/cover.jpg`;
 
   return (
-    <Html lang="de">
+    <Html lang="pt">
       <Head>
         <meta name="theme-color" content="#000000" />
         <meta name="description" content={siteDescription} />
