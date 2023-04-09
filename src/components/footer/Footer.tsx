@@ -36,7 +36,7 @@ export function Footer() {
         </a>
       </div>
       <a className={styles.footerAction} href={ACTION_LINK}>
-        Написать нам
+        Write us
       </a>
     </footer>
   );

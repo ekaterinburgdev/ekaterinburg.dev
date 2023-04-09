@@ -30,79 +30,57 @@ export default function Home() {
           <Ecosystem />
 
           <main className={cn(styles.page)}>
-            <h2>Экосистема Екатеринбурга</h2>
+            <h2>Ekaterinburg Digital Ecosystem</h2>
 
-            <h3>Что происходит</h3>
+            <h3>What’s happening</h3>
 
             <p>
-              Сегодня город — это не просто место для жизни, а сложная
-              инфраструктура услуг, функций, событий, сценариев
-              и взаимодействий, которые определяют комфорт и качество этой
-              жизни. Разобраться во всём одному человеку, мягко говоря, сложно.
+              Today, a city is not just a place to live but a complex infrastructure of services, functions, events, scenarios, and interactions that determine the comfort and quality of life. For one person to understand it all is, to put it mildly, difficult.
             </p>
 
             <p>
-              Поэтому мы планируем создать объединение всех городских сфер
-              в одном месте — цифровую экосистему Екатеринбурга. Она упростит
-              и автоматизирует жизнь горожан, бизнеса и администрации.
+              That’s why we plan to create a unification of all urban spheres in one place—the digital ecosystem of Ekaterinburg. It will simplify and automate the lives of citizens, businesses, and government.
             </p>
 
-            <h3>Почему здесь</h3>
+            <h3>Why here</h3>
 
             <p>
-              Потому что Екатеринбург&nbsp;&mdash; город энтузиастов.
-              Мы&nbsp;горим своим делом. Мы объединяемся, чтобы свернуть горы,
-              а&nbsp;не&nbsp;конкурируем ради прибыли. Мы &mdash; сообщество.
+              Because Ekaterinburg is a city of enthusiasts. We are passionate about what we do. We unite to move mountains, not compete for profit. We are a community.
             </p>
 
-            <h3>Что уже есть и&nbsp;что в&nbsp;планах</h3>
+            <h3>What we already have and what’s in the plans</h3>
 
             <p>
-              У нас уже 10&nbsp;проектов и&nbsp;заряженная команда.
-              В&nbsp;ближайшие месяцы планируются большие анонсы всех проектов
-              и&nbsp;разработка новых. Подписывайтесь на 
-              <a href="https://github.com/ekaterinburgdev/" target="_blank">
-                гитхаб
-              </a>{" "}
-              и ждите новый дроп.
+              We already have 10 projects and an energized team. In the coming months, major announcements of all projects and the development of new ones are planned. Follow us on <a href="https://github.com/ekaterinburgdev/" target="_blank">GitHub</a>.
             </p>
 
             <Iframe src="https://projects.ekaterinburg.dev/widget" />
 
-            <h3>Кого мы ищем</h3>
+            <h3>Who we are looking for</h3>
 
             <p>
-              Сумасшедших энтузиастов по&nbsp;следующим направлениям: Artificial
-              intelligence, Big Data, Machine Learning, C#, Python, React,
-              Node.js, iOS/Android development, customer development, UI/UX
-              design.
+              Crazy enthusiasts in the following fields: Artificial Intelligence, Big Data, Machine Learning, C#, Python, React, Node.js, iOS/Android development, customer development, UI/UX design.
             </p>
 
             <p>
-              Также мы&nbsp;ищем руководителей, арт-директоров, менеджеров
-              продуктов, финансистов, продавцов, тестировщиков, аналитиков,
-              копирайтеров, продюсеров.
+              We are also looking for leaders, art directors, product managers, financiers, salespeople, testers, analysts, copywriters, producers.
             </p>
 
             <p className={cn(styles.investors)}>
-              Более того, мы&nbsp;ищем инвесторов, спонсоров и&nbsp;партнёров!
-              Почта для связи:{" "}
+              Moreover, we are looking for investors, sponsors, and partners! Contact email:{" "}
               <a href="mailto:investor@ekaterinburg.dev">
                 investor@ekaterinburg.dev
               </a>
             </p>
 
             <p>
-              В&nbsp;нашей команде уже есть крутые ребята из&nbsp;Контура,
-              Яндекса, Точки. И мы&nbsp;ждём к&nbsp;нам всех профессионалов, кто
-              готов cоздать цифровой город будущего.
+              Our team already has cool guys from Kontur, Yandex, Tochka. And we are waiting for all professionals who are ready to create a digital city of the future.
             </p>
 
             <Team />
 
             <p className={cn(styles.final)}>
-              Наш локомотив уже несётся полным ходом. Залетайте, пока есть
-              места.
+              Our locomotive is already racing at full speed. Hop on while there’s room.
             </p>
           </main>
 
