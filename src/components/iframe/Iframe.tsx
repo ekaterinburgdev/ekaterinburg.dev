@@ -24,14 +24,13 @@ export function Iframe({ src }: IframeProps) {
   }, [src]);
 
   return (
-    <div className={styles.iframeWrap}>
-      <iframe
-      id="my-iframe" 
-      className={styles.iframe} 
-      src={src} 
-      sandbox="allow-scripts allow-top-navigation allow-same-origin allow-popups" 
+    <iframe
+      id="my-iframe"
+      className={styles.iframe}
+      src={src}
+      sandbox="allow-scripts allow-top-navigation allow-same-origin allow-popups"
       loading="lazy"
-      />
-    </div>
+      scrolling="no"
+    />
   );
 }
