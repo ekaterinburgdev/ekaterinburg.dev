@@ -45,6 +45,12 @@ function scrollToLink(link: HTMLAnchorElement, getCanAnimate: GetCanAnimate) {
   smoothScrollTo(yPos - window.scrollY * 0.02, 15000, getCanAnimate);
 }
 
+function loadAllLazyResources() {
+  document.querySelectorAll('[loading=lazy]').forEach(x => {
+    x.removeAttribute('loading');
+  })
+}
+
 export function initSmoothScroll(): VoidFunction {
   const link = document.querySelector(LINK_SELECTOR) as HTMLAnchorElement;
   const {
@@ -62,6 +68,8 @@ export function initSmoothScroll(): VoidFunction {
 
   function onActionClick(e: MouseEvent) {
     e.preventDefault();
+
+    loadAllLazyResources();
 
     // we should subscribe on prevention only after click
     subscribeOnScrollPrevention();
