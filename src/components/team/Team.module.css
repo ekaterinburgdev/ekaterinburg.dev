@@ -12,8 +12,14 @@
   position: relative;
   margin: 0;
   padding: 0 1vw 40px;
+  
   &:nth-child(3n-1) {
     transform: translate(0, 50%);
+  }
+
+  &:nth-child(3n-1):nth-last-child(-n+3) { 
+    /* Add bottom margin to latest */
+    margin-bottom: 100px;
   }
 }
 
@@ -38,6 +44,7 @@
 
     &:nth-child(n) {
       transform: none;
+      margin: 0;
     }
 
     &:nth-child(2n) {
