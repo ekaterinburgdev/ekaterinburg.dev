@@ -44,8 +44,8 @@ export default function TeamPerson(person: ITeamPerson) {
   }
 
   return (
-    <span className={cx("team-person")}>
+    <div className={cx("team-person")}>
       <Person {...person} />
-    </span>
+    </div>
   );
 }
