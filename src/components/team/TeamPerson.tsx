@@ -9,7 +9,7 @@ function Person({ name, role, photo }: ITeamPerson) {
     <figure className={cx("team-person__inner")}>
       {photo.length > 0 && (
         <div className={cx("team-person__photo")}>
-          <img src={photo} width={300} height={300} alt="" />
+          <img src={photo} width={300} height={300} alt="" loading="lazy" />
         </div>
       )}
       <figcaption className={cx("team-person__caption")}>
