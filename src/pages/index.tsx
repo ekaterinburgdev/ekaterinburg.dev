@@ -11,6 +11,9 @@ import { Team } from "@/components/team/Team";
 import { MainAction } from "@/components/action/MainAction";
 import { Ecosystem } from "@/components/ecosystem/Ecosystem";
 
+import ghSocialSrc from "@/components/footer/social/github-white.svg";
+import tgSocialSrc from "@/components/footer/social/telegram-white.svg";
+
 export default function Home() {
   return (
     <>
@@ -60,10 +63,12 @@ export default function Home() {
             <p>
               У нас уже 10&nbsp;проектов и&nbsp;заряженная команда.
               В&nbsp;ближайшие месяцы планируются большие анонсы всех проектов
-              и&nbsp;разработка новых. Подписывайтесь на 
-              <a href="https://github.com/ekaterinburgdev/" target="_blank">
-                гитхаб
-              </a>{" "}
+              и&nbsp;разработка новых. Подписывайтесь на{" "}
+              <a className={styles.social} href="https://github.com/ekaterinburgdev/" target="_blank">
+                <img src={ghSocialSrc.src} alt="" />гитхаб</a>{" "}
+              и{" "}
+              <a className={styles.social} href="https://t.me/ekaterinburgdev" target="_blank">
+                <img src={tgSocialSrc.src} alt="" />телеграм</a>{" "}
               и ждите новый дроп.
             </p>
 

@@ -67,6 +67,23 @@
   transition: all 0.15s cubic-bezier(0.52, 0.51, 0.39, 0.99);
 }
 
+.social {
+  white-space: nowrap;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.social img {
+  position: relative;
+  top: .25em;
+  width: 1em;
+  vertical-align: top;
+  margin-right: 0.2em;
+  margin-left: 0.1em;
+  box-shadow: 0 .2em 0 .15em black;
+}
+
+
 @media (min-width: 768px) {
   .page {
     width: 60%;
