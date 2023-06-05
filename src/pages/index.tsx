@@ -92,8 +92,8 @@ export default function Home() {
             <p className={cn(styles.investors)}>
               Более того, мы&nbsp;ищем спонсоров и&nbsp;партнёров!
               Почта для связи:{" "}
-              <a href="mailto:investor@ekaterinburg.dev">
-                investor@ekaterinburg.dev
+              <a href="mailto:sponsorship@ekaterinburg.dev">
+                sponsorship@ekaterinburg.dev
               </a>
             </p>
 
