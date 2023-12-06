@@ -1,170 +1,170 @@
 [
   {
-      "name": "Валерия Алексеева",
-      "role": "Копирайтер",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/valeria-a.jpg"
+    "name": "Валерия Алексеева",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/65bfbb82-1798-42d2-aa7f-8c206738675f__valeria-a.jpg",
+    "link": "http://alexeevalera.ru",
+    "role": "UX-редактор"
   },
   {
-      "name": "Ксения Астахова",
-      "role": "backend-разработчик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/906bbe24-728c-4ae7-8a4e-8dbfeb8eb516.jpeg"
+    "name": "Ксения Астахова",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/906bbe24-728c-4ae7-8a4e-8dbfeb8eb516__photo_2023-04-06_19.59.08.jpeg",
+    "link": null,
+    "role": "Backend-разработчик"
   },
   {
-      "name": "Владислав Аткишкин",
-      "role": "frontend-разработчик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/b8d5faf3-013f-479f-8e15-38be16118240.jpeg"
+    "name": "Владислав Аткишкин",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/b8d5faf3-013f-479f-8e15-38be16118240__photo_2022-01-12_02.58.49.jpeg",
+    "link": null,
+    "role": "Frontend-разработчик"
   },
   {
-      "name": "Антон Ахатов",
-      "role": "frontend-разработчик",
-      "link": "https://ahatov.com/",
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/f0fb9e78-375a-4971-a5e8-39a7540cbae2.jpeg"
+    "name": "Антон Ахатов",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/f0fb9e78-375a-4971-a5e8-39a7540cbae2__photo_2022-11-24_00.08.55.jpeg",
+    "link": "https://ahatov.com/",
+    "role": "Frontend-разработчик"
   },
   {
-      "name": "Константин Безгодов",
-      "role": "frontend-разработчик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/f362a062-8585-4b06-bbe0-0052de6f219c.jpeg"
+    "name": "Константин Безгодов",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/f362a062-8585-4b06-bbe0-0052de6f219c__photo_2023-04-06_19.48.23.jpeg",
+    "link": null,
+    "role": "Fullstack-разработчик"
   },
   {
-      "name": "Виктория Браун",
-      "role": "Аналитик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/4b870d1f-aeb1-47ef-af5b-d38b3b8b25a5.jpg"
+    "name": "Виктория Браун",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/4b870d1f-aeb1-47ef-af5b-d38b3b8b25a5__viktoria-b.jpg",
+    "link": null,
+    "role": "Аналитик"
   },
   {
-      "name": "Анастасия Василенко",
-      "role": "Менеджер",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/621ef9bb-6209-4a11-8dcf-ff03e828e96a.jpeg"
+    "name": "Кирилл Дейнов",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/8d0e1418-73df-4366-88b0-a07581f2a67a__photo_2023-04-06_19.47.48.jpeg",
+    "link": null,
+    "role": "Frontend-разработчик"
   },
   {
-      "name": "Кирилл Дейнов",
-      "role": "frontend-разработчик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/8d0e1418-73df-4366-88b0-a07581f2a67a.jpeg"
+    "name": "Олег Донцов",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/ea3e5fbd-7aec-462c-b211-3d547fed004d__12002389_1120366781319128_5299809331049827439_o.jpg",
+    "link": null,
+    "role": "Frontend-разработчик"
   },
   {
-      "name": "Олег Донцов",
-      "role": "frontend-разработчик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/ea3e5fbd-7aec-462c-b211-3d547fed004d.jpg"
+    "name": "Татьяна Кихтенко",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/122c1b28-ad56-4856-a8c4-6d10c2ee1a26__photo_2023-04-06_19.35.41.jpeg",
+    "link": null,
+    "role": "Frontend-разработчик"
   },
   {
-      "name": "Татьяна Кихтенко",
-      "role": "frontend-разработчик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/122c1b28-ad56-4856-a8c4-6d10c2ee1a26.jpeg"
+    "name": "Иван Ковыляев",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/a0dcafeb-e889-43c7-b667-a0b845bf22f7__photo_2023-04-06_20.02.09.jpeg",
+    "link": null,
+    "role": "Веб-дизайнер"
   },
   {
-      "name": "Иван Ковыляев",
-      "role": "Веб-дизайнер",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/a0dcafeb-e889-43c7-b667-a0b845bf22f7.jpeg"
+    "name": "Дарья Котельник",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/e83e7dbc-a0f1-4078-9fa9-3065fec818b6__darya-k.jpg",
+    "link": null,
+    "role": "Архитектор и ГИС-аналитик"
   },
   {
-      "name": "Дарья Котельник",
-      "role": "Архитектор и ГИС-аналитик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/darya-k.jpg"
+    "name": "Анастасия Котова",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/db6c9cf2-1f30-44ba-8a1d-a20706f3f545__anastasia-k.jpg",
+    "link": null,
+    "role": "Бренд-стратег"
   },
   {
-      "name": "Анастасия Котова",
-      "role": "Бренд-стратег",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/anastasia-k.jpg"
+    "name": "Александр Кряжев",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/190cf62a-7104-46e1-9e85-14cd36cf2378__kryaazh.jpg",
+    "link": null,
+    "role": "Веб-дизайнер"
   },
   {
-      "name": "Александр Кряжев",
-      "role": "Веб-дизайнер",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/190cf62a-7104-46e1-9e85-14cd36cf2378.jpg"
+    "name": "Егор Макаров",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/d6f78b2d-a135-4ad8-866e-3e0d68c114e3__egor-m.jpg",
+    "link": null,
+    "role": "Веб-дизайнер"
   },
   {
-      "name": "Егор Макаров",
-      "role": "Веб-дизайнер",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/d6f78b2d-a135-4ad8-866e-3e0d68c114e3.jpg"
+    "name": "Артём Мокин",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/9db5a4de-bbcf-4aaf-8ce6-d1ba929bdc3b__artem-m.jpg",
+    "link": "https://mokinnart.ru/",
+    "role": "ux/ui-дизайнер"
   },
   {
-      "name": "Артём Мокин",
-      "role": "Веб-дизайнер",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/artem-m.jpg"
+    "name": "Паша Омелёхин",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/4b85d8b3-8836-4bc0-9e87-9925955b956e__IMG_3288-crop-color.jpg",
+    "link": "https://t.me/omelekhin/",
+    "role": "Руководитель и куратор"
   },
   {
-      "name": "Паша Омелёхин",
-      "role": "Руководитель и&nbsp;куратор",
-      "link": "https://www.instagram.com/omelekhin/",
-      "photo": "https://edesign-dev-team.vercel.app/notion-static/4b85d8b3-8836-4bc0-9e87-9925955b956e.jpg"
+    "name": "Владислав Парфёнов",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/f4ee5cf7-2704-4aa0-9610-6041f68b3c35__vlad-p.jpg",
+    "link": null,
+    "role": "Крутой хакер"
   },
   {
-      "name": "Владислав Парфёнов",
-      "role": "backend-разработчик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/vlad-p.jpg"
+    "name": "Анастасия Пелевина",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/9711409c-ccbc-4c82-b9ab-446878d25da8__photo_2023-02-05_00.57_1.jpg",
+    "link": null,
+    "role": "Frontend-разработчик"
   },
   {
-      "name": "Анастасия Пелевина",
-      "role": "frontend-разработчик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/9711409c-ccbc-4c82-b9ab-446878d25da8.jpg"
+    "name": "Дарья Петрова",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/00020b69-db2f-4c57-8c74-8495aaf3718b__photo_2023-08-10_10-26-31.jpg",
+    "link": null,
+    "role": "Frontend-разработчик"
   },
   {
-      "name": "Дарья Петрова",
-      "role": "frontend-разработчик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/00020b69-db2f-4c57-8c74-8495aaf3718b.jpg"
+    "name": "Григорий Прудников",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/c99f3047-64f7-44ff-9092-ee18987621ac__grigory-p.jpg",
+    "link": null,
+    "role": "frontend-разработчик"
   },
   {
-      "name": "Григорий Прудников",
-      "role": "frontend-разработчик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/grigory-p.jpg"
+    "name": "Евгений Рамазанов",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/302afe4e-7dd7-4cbe-8606-112367dddfc8__photo_2022-07-23_16.44.46.jpeg",
+    "link": "https://t.me/overedited",
+    "role": "Продакт менеджер и редактор"
   },
   {
-      "name": "Евгений Рамазанов",
-      "role": "Продакт менеджер и редактор",
-      "link": "https://t.me/overedited",
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/302afe4e-7dd7-4cbe-8606-112367dddfc8.jpeg"
+    "name": "Евгений Рогачев",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/7ae71a0f-a060-49f4-875b-8461a6eb72bd__photo_2022-01-10_15.12.59.jpeg",
+    "link": null,
+    "role": "Backend-разработчик"
   },
   {
-      "name": "Евгений Рогачев",
-      "role": "backend-разработчик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/7ae71a0f-a060-49f4-875b-8461a6eb72bd.jpeg"
+    "name": "Лев Трифонов",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/c61be1b3-e0c1-4366-9a6b-b2c94fc11509__IMG_4242.jpg",
+    "link": null,
+    "role": "Frontend-разработчик"
   },
   {
-      "name": "Лев Трифонов",
-      "role": "frontend-разработчик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/c61be1b3-e0c1-4366-9a6b-b2c94fc11509.jpg"
+    "name": "Андрей Трофименко",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/a8dfd5f9-d627-4a78-9e8e-4cf9051ff3bf__12920286_1058411417551126_4386296867546344025_n.jpg",
+    "link": null,
+    "role": "Креативный директор"
   },
   {
-      "name": "Анна Хохлова",
-      "role": "Финансовый аналитик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/223adcd4-ad36-4a4a-8b3c-bbeb5c38bfb0.jpg"
+    "name": "Анна Хохлова",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/223adcd4-ad36-4a4a-8b3c-bbeb5c38bfb0__IMG_9804_1_%D0%BC%D0%B8%D0%BD%D0%B8__%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82.jpg",
+    "link": null,
+    "role": "Финансовый аналитик"
   },
   {
-      "name": "Александр Чабин",
-      "role": "frontend-разработчик",
-      "link": "https://github.com/sashachabin",
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/ea7be7fa-b064-48fa-b25e-0ce29a35ad87.jpg"
+    "name": "Александр Чабин",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/ea7be7fa-b064-48fa-b25e-0ce29a35ad87__IMG_155467telegram2.jpg",
+    "link": "https://twitter.com/nibach",
+    "role": "Frontend-разработчик"
   },
   {
-      "name": "Дмитрий Шаповалов",
-      "role": "Системный аналитик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/356f9007-4e1b-4841-ac43-66553f86bf4a.jpg"
+    "name": "Дмитрий Шаповалов",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/356f9007-4e1b-4841-ac43-66553f86bf4a__IMG_20230802_071854_287.jpg",
+    "link": null,
+    "role": "Системный аналитик"
   },
   {
-      "name": "Ольга Шрейн",
-      "role": "Аналитик",
-      "link": null,
-      "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/dac3dfa2-ab9f-4340-9774-c17ff6301ae2.jpeg"
+    "name": "Ольга Шрейн",
+    "photo": "https://ekaterinburg-design-ekbdev.vercel.app/notion-static/dac3dfa2-ab9f-4340-9774-c17ff6301ae2__photo_2023-04-06_19.54.32.jpeg",
+    "link": null,
+    "role": "Аналитик"
   }
 ]
