@@ -10,20 +10,20 @@
   },
   "dependencies": {
     "@types/animejs": "^3.1.12",
-    "@types/node": "^20.14.10",
-    "@types/react": "^18.3.3",
+    "@types/node": "^22.5.0",
+    "@types/react": "^18.3.4",
     "@types/react-dom": "^18.3.0",
     "animejs": "^3.2.2",
-    "autoprefixer": "^10.4.19",
+    "autoprefixer": "^10.4.20",
     "classnames": "^2.5.1",
     "ekb": "1.2.0-rc.2",
-    "eslint": "^9.7.0",
-    "eslint-config-next": "^14.2.5",
-    "next": "^14.2.5",
-    "postcss": "^8.4.39",
-    "postcss-nesting": "^12.1.5",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.6",
+    "next": "^14.2.6",
+    "postcss": "^8.4.41",
+    "postcss-nesting": "^13.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.4"
   }
 }
