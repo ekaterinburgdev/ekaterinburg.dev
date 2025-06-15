@@ -9,22 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/animejs": "^3.1.12",
-    "@types/node": "^22.5.0",
-    "@types/react": "^18.3.4",
-    "@types/react-dom": "^18.3.0",
+    "@types/animejs": "^3.1.13",
+    "@types/node": "^22.15.31",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
     "animejs": "^3.2.2",
-    "autoprefixer": "^10.4.20",
+    "autoprefixer": "^10.4.21",
     "classnames": "^2.5.1",
     "ekb": "1.2.0-rc.2",
-    "eslint": "^8.57.0",
-    "eslint-config-next": "^14.2.6",
-    "next": "^14.2.6",
-    "postcss": "^8.4.41",
-    "postcss-nesting": "^13.0.0",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.30",
+    "next": "^14.2.30",
+    "postcss": "^8.5.5",
+    "postcss-nesting": "^13.0.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "typescript": "^5.5.4"
+    "typescript": "^5.8.3"
   },
   "devDependencies": {
     "serve": "^14.2.4"
