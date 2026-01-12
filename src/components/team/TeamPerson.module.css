@@ -92,10 +92,6 @@ a.team-person {
   color: #757575;
   font-size: 3vw;
   line-height: 1.2;
-
-  &::first-letter {
-    text-transform: lowercase;
-  }
 }
 
 @media screen and (min-width: 560px) {
